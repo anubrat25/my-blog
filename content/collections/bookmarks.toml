@@ -1,0 +1,22 @@
+[[collection]]
+type = "entry"
+title = "Teach Yourself Computer Science" # optional
+subtitle = "Oz Nova, Myles Byrne" # optional
+link = "https://teachyourselfcs.com/#operating-systems" # optional
+icon = "https://teachyourselfcs.com/favicon.ico" # optional
+
+[[collection]]
+type = "entry"
+title = "Title" # optional
+subtitle = "Subtitle" # optional
+link = "https://example.com" # optional
+icon = "https://example.com/image.png" # optional
+
+[[collection]]
+type = "entry"
+title = "Title" # optional
+subtitle = "Subtitle" # optional
+link = "https://example.com" # optional
+icon = "https://example.com/image.png" # optional
+
+

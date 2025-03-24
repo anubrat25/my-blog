@@ -1,0 +1,31 @@
+
+[[collection]]
+type = "card"
+title = "Cognitive Technologies"
+subtitle = "Deep Learning Intern"
+date = "Jan. 2025"
+link = "https://www.cognitechindia.in/"
+icon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZmpptGq02LS8BL6k_KUWQO5rDBGeuX5RpSw&s"
+content = "Built a real-time face recognition system using OpenCV, leveraging Haar cascades and deep learning-based models (FaceNet, Dlib) for efficient face detection and recognition. Optimized for speed and accuracy, enabling applications in security, authentication, and attendance tracking."
+featured = false  #optional
+
+[[collection]]
+type = "card"
+title = "Tech Savvy Software Consultancy"
+subtitle = "Backend Development Intern"
+date = "Jul. 2024"
+link = "https://tsinfosec.com/"
+icon = "https://shorturl.at/1TEPw"
+content = "Worked on an AI-powered tweet generator using the MERN stack (MongoDB, Express.js, React, Node.js) integrated with OpenAI’s GPT-3 for generating contextually relevant tweets, incorporating a MongoDB database to store user-generated content and preferences, and implemented a user-friendly interface in React for seamless interaction and customization of tweets."
+featured = false  #optional
+
+[[collection]]
+type = "card"
+title = "Nexus Info"
+subtitle = "Machine Learning Intern"
+date = "Oct. 2024"
+link = "https://www.nexusinfo.in/"
+icon = "https://media.licdn.com/dms/image/v2/D560BAQHbJ98jAoTBWw/company-logo_200_200/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=2147483647&v=beta&t=WYwmWoTbfn-86oo0zcuuG9Kq3Xzh9CANzWUCFA_4qXA"
+content = "Designed an AI-enabled chatbot with document retrieval by using Streamlit, Groq API, and LangChain, which supports conversational memory, PDF document processing, and vector-based similarity search using FAISS. Implemented Google Generative AI Embeddings for chunking documents and retrieving them correctly, allowing the chatbot to give accurate and context-driven answers with respect to user queries."
+featured = false  #optional
+

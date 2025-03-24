@@ -1,0 +1,20 @@
+[[collection]]
+type = "art"
+title = "The Alchemist"
+subtitle = "[Brazilian] Paulo Coelho" # optional
+link = "https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People" # optional
+img = "/books/the-alchemist.jpg"
+content = "A novel that follows the journey of Santiago, a young Andalusian shepherd who dreams of discovering a hidden treasure in Egypt. Guided by omens, a wise alchemist, and his own unwavering faith, Santiago embarks on a life-changing quest of self-discovery. The story explores themes of destiny, personal legend, and the transformative power of following one’s dreams."
+footer = "★★★★★"
+
+
+[[collection]]
+type = "art"
+title = "How to Win Friends & Influence People"
+subtitle = "[American] Dale Carnegie" # optional
+link = "https://www.goodreads.com/book/show/4865.How_to_Win_Friends_Influence_People" # optional
+img = "/books/how-to-win-friends.jpg"
+content = "A timeless self-help book offering practical advice on communication, relationship-building, and influence through engaging anecdotes and actionable principles, emphasizing persuasion, positivity, and empathy in personal and professional settings."
+footer = "★★★★"
+
+
