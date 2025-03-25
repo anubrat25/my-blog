@@ -23,5 +23,3 @@ reaction = false
 +++
 
 I have gained. Neither memories nor grades, but weight. Fat, you say? I say it's Bulking
-
-hello there hi everyone... test.
