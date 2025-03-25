@@ -2,7 +2,6 @@
 title = "Where Magic Happened"
 description = "Oh, simple thing, where have you gone?"
 date = 2024-01-25
-updated = 2025-03-24
 draft = false
 
 [taxonomies]

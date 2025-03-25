@@ -2,7 +2,6 @@
 title = "Weekend at Balconies"
 description = "Morning Football to Rainy Evenings"
 date = 2023-10-11
-updated = 2025-03-23
 draft = false
 
 [taxonomies]

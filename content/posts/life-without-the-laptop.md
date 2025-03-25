@@ -2,7 +2,6 @@
 title = "Life Without the Laptop"
 description = "A Trip to the North."
 date = 2024-09-29
-updated = 2025-03-24
 draft = false
 
 [taxonomies]

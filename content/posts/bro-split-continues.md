@@ -2,7 +2,6 @@
 title = "Bro Split Continues"
 description = "Finally enjoying life?"
 date = 2025-03-25
-updated = 2025-03-25
 draft = false
 
 [taxonomies]
