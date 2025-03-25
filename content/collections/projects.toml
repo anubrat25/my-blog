@@ -1,21 +1,21 @@
 [[collection]]
 type = "card"
 title = "Transformer Architecture: Based on ”Attention Is All You Need”"
-link = "https://example.com"
+link = "https://arxiv.org/abs/1706.03762"
 content = "Implemented the Transformer architecture from scratch, referencing the seminal *Attention Is All You Need* paper, demonstrating expertise in advanced neural network design. Trained the model on a custom dataset using PyTorch, optimizing hyperparameters to achieve a 15% BLEU score improvement over baseline performance. Analyzed model performance through detailed evaluation metrics, including attention heatmaps and loss curves, providing insights into Transformer interpretability and optimization strategies."
 tags = ["transformers", "deeplearning", "pytorch"]
 
 [[collection]]
 type = "card"
 title = "Fine-Tuning Llama for SQL Query Generation"
-link = "https://example.com"
+link = "https://www.llama.com/docs/overview/"
 content = "Fine-tuning Llama on a dataset of English-to-SQL query pairs using techniques like LoRA and parameter-efficient fine-tuning, reducing inference errors by 25%. Developing a preprocessing pipeline to clean, tokenize, and balance the dataset, enhancing model training efficiency and improving SQL query accuracy."
 tags = ["llm", "finetuning", "sql"]
 
 [[collection]]
 type = "card"
 title = "RAG Workflow with LangChain, ChromaDB & Open-Source LLM"
-link = "https://example.com"
+link = "https://python.langchain.com/docs/introduction/"
 content = "Fine-tuning a Retrieval-Augmented Generation (RAG) pipeline by integrating LangChain, ChromaDB, and an open-source LLM to enable context-aware, domain-specific text generation. Utilizing ChromaDB indexing for efficient retrieval, achieving a 10% reduction in query latency and improving response relevance in real-time applications. Implementing comprehensive evaluation frameworks to measure retrieval accuracy, model performance, and end-to-end system reliability, ensuring production readiness."
 tags = ["rag", "langchain", "chromadb"]
 

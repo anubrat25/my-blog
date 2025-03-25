@@ -3,20 +3,25 @@ type = "entry"
 title = "Teach Yourself Computer Science" # optional
 subtitle = "Oz Nova, Myles Byrne" # optional
 link = "https://teachyourselfcs.com/#operating-systems" # optional
-icon = "https://teachyourselfcs.com/favicon.ico" # optional
+icon = "/bookmarks/teach-yourself-cs.ico" # optional
 
 [[collection]]
 type = "entry"
-title = "Title" # optional
-subtitle = "Subtitle" # optional
-link = "https://example.com" # optional
-icon = "https://example.com/image.png" # optional
+title = "Write Code Every Day" # optional
+subtitle = "John Resig" # optional
+link = "https://johnresig.com/blog/write-code-every-day/" # optional
+icon = "/bookmarks/write-code-every-day.ico" # optional
 
 [[collection]]
 type = "entry"
-title = "Title" # optional
-subtitle = "Subtitle" # optional
-link = "https://example.com" # optional
-icon = "https://example.com/image.png" # optional
+title = "不存在的乡愁" # optional
+subtitle = "shud.in" # optional
+link = "https://shud.in/thoughts/the-non-existing-nostalgic" # optional
+icon = "/bookmarks/shud.ico" # optional
 
-
+[[collection]]
+type = "entry"
+title = "ekunazanu.foo" # optional
+subtitle = "Anchit Roy" # optional
+link = "https://ekunazanu.foo/log/" # optional
+icon = "/bookmarks/ekunazanu.ico" # optional

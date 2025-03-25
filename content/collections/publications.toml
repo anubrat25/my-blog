@@ -3,21 +3,21 @@
 type = "card"
 title = "Course Recommendation Framework with Semantic & Generative AI"
 subtitle = "Anubrat Bora and Dr. Gerard Deepak"
-link = " "
+link = "/publications/course.pdf"
 content = "This course recommendation paradigm integrates AI and differential metadata selection for semantics-oriented control. It uses LDA for metadata generation from datasets like e-books, enhancing domain knowledge extraction. With an RNN classifier and strong semantic similarity measures, it applies quantitative reasoning to optimize recommendations, achieving high performance in hybridized course recommendation. [Currently, under review]"
 
 [[collection]]
 type = "card"
 title = "VRSIL: Video Recommendation Framework with Semantic Intelligence"
 subtitle = "Anubrat Bora and Dr. Gerard Deepak"
-link = " "
+link = "/publications/vrsil.pdf"
 content = "This framework introduces a Web 3.0 video recommendation model integrating hybrid machine intelligence, generative AI, and semantic reasoning. It dynamically generates ontologies for feature selection, classifies data using logistic regression, and optimizes recommendations via NPMI and the Jian-Konrad Index, leveraging the Elephant Optimization algorithm for diverse and relevant suggestions. [Currently, under review]"
 
 [[collection]]
 type = "card"
 title = "KCMTI: A Knowledge-Centric Microblog Tagging Framework"
 subtitle = "Anubrat Bora and Dr. Gerard Deepak"
-link = " "
+link = "/publications/kcmti.pdf"
 content = "This paper proposes a modern microblog annotation framework for innovation and strategy, integrating semantic intelligence with machine learning and deep learning. It utilizes a knowledge stack of eBooks, glossaries, and keywords for domain-specific insights. A hybrid RNN-XGBoost classifier enhances category extraction, while Adaptive PMI and Horn’s Index improve semantic similarity and model accuracy. [Currently, under review]"
 
 [[collection]]
@@ -31,5 +31,5 @@ content = "This research presents a strategic framework for classifying criminol
 type = "card"
 title = "Ontology Synthesis with Semantic AI and Deep Reinforcement Learning"
 subtitle = "Anubrat Bora and Dr. Gerard Deepak"
-link = " "
+link = "/publications/ontology.pdf"
 content = "The proposed model automates ontology generation for environmental journalism using Web 3.0 auxiliary knowledge. It employs Bi-LSTM, AdaBoost, Pearson’s correlation, and Google’s Knowledge Graph API for classification and knowledge enrichment. Morisita’s overlap index aids semantic relevance, while the Imperialist Competitive Algorithm optimizes precision. Yago enhances auxiliary knowledge, ensuring high accuracy and minimal false discovery rates. [Currently, under review]" 
