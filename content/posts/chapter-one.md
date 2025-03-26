@@ -1,6 +1,6 @@
 +++
 title = "Chapter One"
-description = "To my Astral Awakenings, Cheers!"
+description = "Vol. 1, Chapter 1"
 date = 2023-08-27
 draft = false
 
@@ -21,15 +21,15 @@ featured = false
 reaction = false
 +++
 
-![Sky full of stars](/img/chapter-one/img1.webp)
+![the night sky](/img/chapter-one/img1.webp)
 
-This is *Astral Alchemy* and I welcome you all.
+This is *Althea* and I welcome you all.
 
-I have always wanted to start my blogging site. And thanks to all the support from some of my favourite people I have finally been able to. This site is more than just a collection of posts; it's a book of my life's fun & tragedy.
+I've always wanted to start my own blog, and thanks to the support of some of my favorite people, I finally have. This site isn’t just a collection of posts; it's a collection of my life's highs and lows.  
 
-It's mostly satirical, so is my life. That way, I shall share my boring little life. I extend my gratitude to each one of you reading this. Certain aspects might not be perfect as I’m still new to this, but please do bear with me.
+It’s mostly satirical, much like my life. Through it, I’ll share my boring little adventures. I’m incredibly grateful to each of you reading this. Certain aspects may not be perfect since I’m still figuring things out, so bear with me.  
 
-So, buckle up! You are about to dive into the pages of *Astral Alchemy*. Fingers crossed, you won’t hate me on the other side.
+Now, buckle up! You’re about to dive into the pages of *Althea*. Fingers crossed you won’t hate me on the other side.
 
 With no license and a questionable sense of direction, this is your pilot,
 
