@@ -30,8 +30,6 @@ date_format = "%b %-d, %Y"
 
 Welcome to my corner of creativity. 
 
-I'm Anubrat, a dreamer who occasionally stares into the void for inspiration (and sometimes just because I forgot what I was doing). Astral Alchemy is my little corner of the cosmos where I attempt to spill life's colors onto the page, sometimes with poetic elegance, other times like a toddler wielding a paintbrush.
+I'm Anubrat, and I am lost—lost in perfection, still chasing it. In this pursuit, I created *Astral Alchemy* to find just that. Alongside my love for writing, I'm captivated by math and computer science, leaving my brain in a constant tug-of-war between logic and existential crises. After years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. Whether it soars or crash-lands—well, we’ll find out.
 
-Alongside my love for storytelling, I'm deeply fascinated by math and computer science, which means my brain is in a perpetual tug-of-war between logic and existential crises. After years of procrastination, questionable life choices, and at least three dramatic sighs per hour, I've finally decided this is where my thoughts shall take flight. Whether they soar gracefully or nosedive like a budget space mission remains to be seen.
-
-Here, ideas take on a life of their own, and my musings (mostly) make sense. So welcome to my literary spaceship, fasten your seatbelts, brace for turbulence, and enjoy the ride through the galaxy of my mind. No refunds, but plenty of cosmic chaos is complimentary!
+My goal here is to bring my ideas to life and ensure my musings (mostly) make sense.

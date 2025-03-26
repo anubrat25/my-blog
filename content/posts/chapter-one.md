@@ -21,16 +21,16 @@ featured = false
 reaction = false
 +++
 
-![Sky full of stars](/img/chapter-one/img1.jpg)
+![Sky full of stars](/img/chapter-one/img1.webp)
 
-This is Astral Alchemy and I welcome you all.
+This is *Astral Alchemy* and I welcome you all.
 
-I have always wanted to start my blogging site. And thanks to all the support from some of my favourite people I have finally been able to. I’m filled with a sense of wonder and anticipation. This site is more than just a collection of posts; it's a canvas where memories of my life gets painted.
+I have always wanted to start my blogging site. And thanks to all the support from some of my favourite people I have finally been able to. This site is more than just a collection of posts; it's a book of my life's fun & tragedy.
 
-Through space & time, I’m taking you all in this journey where I shall share my boring little life. As we embark on this adventure, I extend my gratitude to each of you for being a part of this cosmic journey and be patient enough to read about the things I write. Certain aspects might not be perfect as I’m still new to this, but please do bear with me.
+It's mostly satirical, so is my life. That way, I shall share my boring little life. I extend my gratitude to each one of you reading this. Certain aspects might not be perfect as I’m still new to this, but please do bear with me.
 
-So, buckle up on the starship. The stars await us, and the pages of Astral Alchemy are ready to be inscribed with magic.
+So, buckle up! You are about to dive into the pages of *Astral Alchemy*. Fingers crossed, you won’t hate me on the other side.
 
-With cosmic dust and wonder, this is your pilot,
+With no license and a questionable sense of direction, this is your pilot,
 
 Anubrat.
