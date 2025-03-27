@@ -21,7 +21,7 @@ featured = false
 reaction = false
 +++
 
-![the night sky](/img/chapter-one/img1.webp)
+![the night sky](/img/chapter-one/img1.avif)
 
 This is *Althea* and I welcome you all.
 
