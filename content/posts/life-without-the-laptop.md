@@ -36,7 +36,7 @@ Post the sightseeing part, and my problem of getting bored quickly, we came, as 
 
 The trip on its own was really wholesome, maybe because of the fact that the place we stayed in was really cozy. I'm not crazy to say this, but, the best part I felt about the trip was...
 
-{{ figure(src="/img/life-without-the-laptop/img7.avif", alt="tasty cheesecake", caption="This. The cheat meal No. #100") }}
+{{ figure(src="/img/life-without-the-laptop/img7.avif", alt="tasty cheesecake", caption="This. The cheat meal no. #100") }}
 
 Though, I realized, life could be fun without the laptop as well. And it's worth spending time with people, also ordering food online, listening to music online, and booking tickets online as well.
 
