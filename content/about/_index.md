@@ -17,7 +17,7 @@ comment = false
 reaction = false
 +++
 
-![doodle of reading something interesting](/img/doodles/img3.avif)
+![doodle of reading something interesting](/img/doodles/real-img3.avif)
 
 Hi, I am Anubrat 👋
 
