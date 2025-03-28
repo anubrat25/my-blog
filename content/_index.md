@@ -27,9 +27,6 @@ date_format = "%b %-d, %Y"
 
 > "Behind every great man, there is a woman rolling her eyes." – Jim Carrey
 
-
-*Welcome*.
-
 ![hello world](/img/hello2.avif)
 
 After years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. 
