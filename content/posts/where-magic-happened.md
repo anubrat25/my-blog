@@ -39,10 +39,10 @@ Next day, guests had come, well (don't tell them) but usually I am not very welc
 
 25th, The Christmas Day! And everything wass just so perfect. San‘TA’ had brought us sweets and gifts (as always). Interestingly enough, I’ve put lights around our front porch this time around. Funnily enough, the neighbours though we had changed religion.
 
-Hey, “Things I’m grateful for” list, please add “Finally able to watch a movie together with my brother”. Never imagined that a morning car ride to an unknown planet could be so much fun. True joy is when you come home during holidays and everyone invites you for dinners. 
+Additionally, that morning car ride to an unknown planet altogether was something else.  
 
 ![photo from guwahati airport](/img/where-magic-happened/img5.avif)
 
-And after everything, how can I now not talk about my everything? I don’t wanna mention, but yes, something unexpectedly great happened. Thus, MAGIC HAPPENED!
+Christmas time's fun. I enjoy the winters. Guess magic really happens... and wishes do come true.
 
 See you soon.

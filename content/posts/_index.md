@@ -1,5 +1,5 @@
 +++
-title = "My Blog"
+title = "My Blogs"
 description = "My blog site."
 sort_by = "date"
 template = "blog.html"
@@ -15,7 +15,7 @@ subtitle = "Because Tweeting Wasn’t Enough"
 
 date_format = "%b %-d, %Y"
 
-categorized = false # posts can be categorized
+categorized = true # posts can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents
 comment = false # enable comment
