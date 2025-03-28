@@ -21,5 +21,6 @@ featured = false
 reaction = false
 +++
 
-[![Watch the video](https://img.youtube.com/vi/wjZofJX0v4M/0.jpg)](https://www.youtube.com/watch?v=wjZofJX0v4M)
+![transformer architecture](/img/transformer-insights/img1.avif)
 
+![transformer architecture](/img/transformer-insights/img2.avif)

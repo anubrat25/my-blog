@@ -28,8 +28,10 @@ date_format = "%b %-d, %Y"
 > "Behind every great man, there is a woman rolling her eyes." – Jim Carrey
 
 
-*Welcome*. The name? No PJ's no puns, just my bias.
+*Welcome*.
 
-Well... after years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. Now, whether it takes off or falls flat, only time will tell.
+![hello world](/img/hello2.avif)
+
+After years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. 
 
 My goal? To bring those ideas to life and (hopefully) make sense of my musings.
