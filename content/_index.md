@@ -27,6 +27,6 @@ date_format = "%b %-d, %Y"
 
 ![doodle of me and my users](/img/doodles/real-img1.avif)
 
-After years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. 
+After years of procrastination, poor decisions, and some hourly dramatic sighs, I’ve finally taken the leap.  
 
-My goal? To bring those ideas to life and (hopefully) make sense of my musings.
+My goal? To bring my ideas to life and (hopefully) make sense of my musings.

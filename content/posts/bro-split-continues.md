@@ -21,4 +21,11 @@ featured = false
 reaction = false
 +++
 
-I have gained. Neither memories nor grades, but weight. Fat, you say? I say it's Bulking
+I have gained. Neither memories nor grades, but weight. Fat, you say? I say it's Bulking.
+
+{{ figure(src="/img/bro-split-continues/img1.avif", alt="a tasty burger", caption="Life goal: checked!") }}
+
+{{ figure(src="/img/bro-split-continues/img2.avif", alt="a tasty burger", caption="Life goal: checked!") }}
+
+{{ figure(src="/img/bro-split-continues/img5.avif", alt="a tasty burger", caption="Life goal: checked!") }}
+
