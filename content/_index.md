@@ -9,7 +9,7 @@ footer = false
 
 # If you don't want to display id/bio/avatar, simply comment out that line
 name = "Anubrat Bora"
-id = "bias"
+id = "boratsbias"
 bio = "Playing the Ultimate 5D Chess" 
 
 links = [
@@ -28,7 +28,7 @@ date_format = "%b %-d, %Y"
 > "Behind every great man, there is a woman rolling her eyes." – Jim Carrey
 
 
-*Welcome to my bias.* Alright. PJ's aside, 
+*Welcome*. The name? No PJ's no puns, just my bias.
 
 Well... after years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. Now, whether it takes off or falls flat, only time will tell.
 
