@@ -17,6 +17,8 @@ comment = false
 reaction = false
 +++
 
+![doodle of me watching my laptop](/img/doodles/img4.avif)
+
 Hi, I am Anubrat 👋
 
 I’m a junior computer science student.

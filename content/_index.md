@@ -25,9 +25,9 @@ recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
 
-> "Behind every great man, there is a woman rolling her eyes." – Jim Carrey
+![hello world](/img/doodles/img3.avif)
 
-![hello world](/img/hello2.avif)
+![hello world](/img/doodles/img2.avif)
 
 After years of procrastination, bad decisions, and hourly dramatic sighs, I’ve finally taken the leap. 
 
