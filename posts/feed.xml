@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>My Blogs</title>
+	<subtitle>My blog site.</subtitle>
+	<link href="https://anubratbora.me/posts/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://anubratbora.me/posts/"/>
+	<updated>2025-03-28T00:00:00+00:00</updated>
+	<id>https://anubratbora.me/posts/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Transformer Insights</title>
+		<published>2025-03-28T00:00:00+00:00</published>
+		<updated>2025-03-28T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/transformer-insights/" type="text/html"/>
+		<id>https://anubratbora.me/posts/transformer-insights/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;transformer-insights&#x2F;img1.avif&quot; alt=&quot;transformer architecture&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Back in 2017, a bunch of researchers came up with something that changed the AI game forever—Transformers! They introduced this in a paper called &quot;Attention Is All You Need,&quot; and well, they were right. Before Transformers, models like RNNs and LSTMs had a tough time handling long-range dependencies and were painfully slow because they processed words one by one. Transformers fixed this with &lt;strong&gt;self-attention&lt;&#x2F;strong&gt; and parallelization, making everything faster and smarter.&lt;&#x2F;p&gt;
+&lt;p&gt;So, how does self-attention work? Imagine you&#x27;re reading a sentence. Some words matter more than others depending on the context. The Transformer figures this out using &lt;strong&gt;Query (Q), Key (K), and Value (V) matrices&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;The attention formula is given by, $ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V $.&lt;&#x2F;p&gt;
+&lt;p&gt;In simple terms, it checks how important each word is in relation to others and adjusts focus accordingly. Unlike older models, which process words one at a time, Transformers look at the entire sentence at once—way more efficient!&lt;&#x2F;p&gt;
+&lt;p&gt;It also uses &lt;strong&gt;multi-head attention&lt;&#x2F;strong&gt;, meaning it pays attention to different aspects of the text simultaneously. And since it doesn’t have built-in memory like RNNs, it uses &lt;strong&gt;positional encoding&lt;&#x2F;strong&gt; to keep track of word order.&lt;&#x2F;p&gt;
+&lt;p&gt;Fast forward to today, and Transformers power everything from Google Search to chatbots like GPT. Pretty cool, right?&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bro Split Continues</title>
+		<published>2025-03-25T00:00:00+00:00</published>
+		<updated>2025-03-25T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/bro-split-continues/" type="text/html"/>
+		<id>https://anubratbora.me/posts/bro-split-continues/</id>
+		<content type="html">&lt;p&gt;I have gained. Neither memories nor grades, but weight. Fat, you say? I say it&#x27;s Bulking.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img1.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Life goal: checked!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img2.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Life goal: checked!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img5.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Life goal: checked!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Life Without the Laptop</title>
+		<published>2024-09-29T00:00:00+00:00</published>
+		<updated>2024-09-29T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/life-without-the-laptop/" type="text/html"/>
+		<id>https://anubratbora.me/posts/life-without-the-laptop/</id>
+		<content type="html">&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img2.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Life goal: checked!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;A family trip was long due. Bags packed! All checked! And so I headed with zeal. Not long after I was stopped at security because of my creatine. I was pissed. But, but... the MESSI BURGER had made up for it.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img4.avif&quot;  alt=&quot;view from jaipur fort&quot;&gt;
+    
+    &lt;figcaption&gt;Jaipur, we meet again.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Your parents treat you so well, atleast they do for the first 10 minutes on seeing you after 3 months.&lt;&#x2F;p&gt;
+&lt;p&gt;And man, I gotta agree, Rajasthani food&#x27;s great, even better than the monuments, perhaps?&lt;&#x2F;p&gt;
+&lt;p&gt;Post the sightseeing part, and my problem of getting bored quickly, we came, as always I ordered food, we ate and we slept. Next day, we went to the Taj, and surely, I meant the Mahal, common on!
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img5.avif&quot;  alt=&quot;the taj mahal&quot;&gt;
+    
+    &lt;figcaption&gt;(1&amp;#x2F;7 completed)&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The trip on its own was really wholesome, maybe because of the fact that the place we stayed in was really cozy. I&#x27;m not crazy to say this, but, the best part I felt about the trip was...&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img7.avif&quot;  alt=&quot;tasty cheesecake&quot;&gt;
+    
+    &lt;figcaption&gt;This. The cheat meal no. #100&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Though, I realized, life could be fun without the laptop as well. And it&#x27;s worth spending time with people, also ordering food online, listening to music online, and booking tickets online as well.&lt;&#x2F;p&gt;
+&lt;p&gt;Nights were amazing... lovely music + best food, could it get any better?&lt;&#x2F;p&gt;
+&lt;p&gt;To end it all, we bought stuff, lots of stuff! (Bought too many souvenirs, just to see my Paytm go red.)&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img9.avif&quot;  alt=&quot;view of sunset&quot;&gt;
+    
+    &lt;figcaption&gt;Top of the world, LITERALLY!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Time for return, back to the hostel. The T2, Bangalore airport at night is a different monument of its own.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe, just maybe, vacations are a good thing until it&#x27;s forced. Can&#x27;t wait for the next one!&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Where Magic Happened</title>
+		<published>2024-01-25T00:00:00+00:00</published>
+		<updated>2024-01-25T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/where-magic-happened/" type="text/html"/>
+		<id>https://anubratbora.me/posts/where-magic-happened/</id>
+		<content type="html">&lt;p&gt;This is abut the end of my third semester, which marked the end of weeks of late-night study sessions, stress, and hard work (Also ordering late night food). I had Object Oriented Programming as my last exam. And man, I hated Java! I felt a  sense of genuine relief and accomplishment, after a long time.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img1.avif&quot;  alt=&quot;terminal 2, bangalore&quot;&gt;
+    
+    &lt;figcaption&gt;Is the T2 really beautiful, or am I that sleep-deprived?&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I wanted my holidays to be special, so I decided to to surprise my younger brother. And all the food that he Swiggy&#x27;d on seeing me told me it was worth it.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img2.avif&quot;  alt=&quot;picture taken from the bus window&quot;&gt;
+    
+    &lt;figcaption&gt;Yay! I got the window seat again.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;That night, the dinner at home felt great after that long. I’m finally what I should’ve been before, GRATEFUL.&lt;&#x2F;p&gt;
+&lt;p&gt;Gym is a form of escapism, and rightly so, I proved it during the holidays.&lt;&#x2F;p&gt;
+&lt;p&gt;Next day, guests had come, well (don&#x27;t tell them) but usually I am not very welcoming, but this time, I felt &lt;del&gt;good&lt;&#x2F;del&gt; fine. And I believe it was because of this.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img3.avif&quot;  alt=&quot;barbeque at our home&quot;&gt;
+    
+    &lt;figcaption&gt;Just because of that holy spirit am I sharing my food.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;25th, The Christmas Day! And everything wass just so perfect. San‘TA’ had brought us sweets and gifts (as always). Interestingly enough, I’ve put lights around our front porch this time around. Funnily enough, the neighbours though we had changed religion.&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally, that morning car ride to an unknown planet altogether was something else.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;where-magic-happened&#x2F;img5.avif&quot; alt=&quot;photo from guwahati airport&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Christmas time&#x27;s fun. I enjoy the winters. Guess magic really happens... and wishes do come true.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Weekend at Balconies</title>
+		<published>2023-10-11T00:00:00+00:00</published>
+		<updated>2023-10-11T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/weekend-at-balconies/" type="text/html"/>
+		<id>https://anubratbora.me/posts/weekend-at-balconies/</id>
+		<content type="html">&lt;p&gt;Just like Weekend at Barnie&#x27;s, my third semester has been a mixed bag but one thing that I’ve been enjoying the most are my perfect weekends. All thanks to the amazing group of friends that I have. (No puns, none at all)&lt;&#x2F;p&gt;
+&lt;p&gt;Without you, weekends are just days you get for extra sleep, which is bad? Ah, anyway... the concept of a perfect weekend often varies from person to person, shaped by individual preferences. And for me, this weekend rocked! Let me elaborate.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img1.avif&quot;  alt=&quot;sky with rainbow&quot;&gt;
+    
+    &lt;figcaption&gt;This is where the magic happens! (And fights too.)&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The weekend kicked off with me being excited and waking up on my own (trust me when I say this, it doesn’t usually happen by itself), I believe it was because of the Champions League final that we had to play. As always, I was the who had to gather everyone. With promises to myself that it was the last time I do that, we started playing. After a couple of injuries we ended and headed for mess food, a mediocre breakfast.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img3.avif&quot;  alt=&quot;my fancy desk setup&quot;&gt;
+    
+    &lt;figcaption&gt;My fancy desk setup, thanks to OCD.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;See this? I gave my everything to completing my projects and assignments, and so did chatGPT.&lt;&#x2F;p&gt;
+&lt;p&gt;Post this, I just slept and slept... (why won&#x27;t I? Had you seen me, you would&#x27;ve said the same.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img4.avif&quot;  alt=&quot;evening sky&quot;&gt;
+    
+    &lt;figcaption&gt;I woke up to this view!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And Bangalore being unpredictable, showed it&#x27;s true colors in the form of heavy downpours. Seriously this city&#x27;s a mess, but what do I say to my relatives when being asked about the city? Yes. &quot;The weather&#x27;s awesome!&quot;, &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PVrtI6YOe6Y&amp;amp;ab_channel=RandomChikibum&quot;&gt;Rahul Subramanian&lt;&#x2F;a&gt;, I feel you.&lt;&#x2F;p&gt;
+&lt;p&gt;As the rain stopped, it was time for IND vs AUS. And truly, the thrill of the game, the highs and lows, and the annoying desires of my friends to see the 11th man finish the game for India were in a way INTERESTING. It was an exhilarating experience honestly as the screen was really great and bright, maybe too bright too, it was as if I were in the stadium.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img6.avif&quot;  alt=&quot;ind vs aus screening&quot;&gt;
+    
+    &lt;figcaption&gt;My pay off? The screen destroyed my retinas.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img10.avif&quot;  alt=&quot;walking track&quot;&gt;
+    
+    &lt;figcaption&gt;That&amp;#x27;s where we walked just to see lookalikes.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;All good, India won, we walked on tracks making fun of one another. Bullying. But the best part. It was after I came back to my block, and sat on the balcony, with some friends and we shared thoughts-too dark and complex to be revealed, some against the law too. Accompanied by a playlist of old Soft Rock, we enjoyed the night, and the weekend. No happy ending as Monday followed.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Chapter One</title>
+		<published>2023-08-27T00:00:00+00:00</published>
+		<updated>2023-08-27T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/chapter-one/" type="text/html"/>
+		<id>https://anubratbora.me/posts/chapter-one/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;chapter-one&#x2F;img1.avif&quot; alt=&quot;the night sky&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Welcome again!&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve always wanted to start my own blog, and thanks to the support of some of my favorite people, I finally have. This site isn’t just posts; it&#x27;s about my life&#x27;s (&lt;em&gt;occasional&lt;&#x2F;em&gt;) randomness.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s mostly satirical, much like my life. Through it, I’ll share my boring little adventures. I’m incredibly grateful to each of you reading this. Certain aspects may not be perfect since I’m still figuring things out, so &lt;em&gt;bear with me&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Cheers,&lt;&#x2F;p&gt;
+&lt;p&gt;Anubrat.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
