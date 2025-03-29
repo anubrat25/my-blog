@@ -21,18 +21,19 @@ featured = false
 reaction = false
 +++
 
-![transformer architecture](/img/transformer-insights/img1.avif)
+Okay.
 
-Back in 2017, a bunch of researchers came up with something that changed the AI game forever—Transformers! They introduced this in a paper called "Attention Is All You Need," and well, they were right. Before Transformers, models like RNNs and LSTMs had a tough time handling long-range dependencies and were painfully slow because they processed words one by one. Transformers fixed this with **self-attention** and parallelization, making everything faster and smarter.
+So, basically if you are new to this and don't have much experience in deep learning or maths, worry not. I got you.
 
-So, how does self-attention work? Imagine you're reading a sentence. Some words matter more than others depending on the context. The Transformer figures this out using **Query (Q), Key (K), and Value (V) matrices**:
+You know how a neural netowrk works? It mostly plays with the weights and biases to make predictions. No? go find out... [chaper 1](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&ab_channel=3Blue1Brown)
+
+![a basic neural network](/img/transformer-insights/neural-netv2.avif)
+
+Let's learn about feed forward networks, and how it works differently from backpropagation...
+
+Ever heard about the word "attention"?
 
 The attention formula is given by, $ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V $.
 
-In simple terms, it checks how important each word is in relation to others and adjusts focus accordingly. Unlike older models, which process words one at a time, Transformers look at the entire sentence at once—way more efficient!
-
-It also uses **multi-head attention**, meaning it pays attention to different aspects of the text simultaneously. And since it doesn’t have built-in memory like RNNs, it uses **positional encoding** to keep track of word order.
-
-Fast forward to today, and Transformers power everything from Google Search to chatbots like GPT. Pretty cool, right?
 
 
