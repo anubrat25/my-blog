@@ -25,7 +25,7 @@ recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
 
-![doodle of me and my users](/img/doodles/real-img1.avif)
+![doodle of me and my users](/img/doodles/real-img1v2.avif)
 
 After years of procrastination, poor decisions, and some hourly dramatic sighs, I’ve finally taken the leap.  
 
