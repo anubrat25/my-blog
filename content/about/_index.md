@@ -17,8 +17,6 @@ comment = false
 reaction = false
 +++
 
-![doodle of reading something interesting](/img/doodles/real-img3.avif)
-
 Hi, I am Anubrat 👋
 
 I’m a junior computer science student.
@@ -30,3 +28,5 @@ Though nowhere near a pro, I like math and computer science, currently working o
 Got suggestions? Keep them. (Just kidding...) Any memes? Send them over [email](mailto:anubratbora25@gmail.com). 
 
 Please.
+
+![doodle of reading something interesting](/img/doodles/real-img3.avif)
