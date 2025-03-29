@@ -29,4 +29,4 @@ Got suggestions? Keep them. (Just kidding...) Any memes? Send them over [email](
 
 Please.
 
-![doodle of reading something interesting](/img/doodles/real-img3.avif)
+![doodle of reading something interesting](/img/doodles/real-img3v2.avif)
