@@ -1,7 +1,7 @@
 +++
 title = "Transformer Insights"
 description = "Based on the paper, Attention Is All You Need."
-date = 2025-03-28
+date = 2025-03-31
 draft = false
 
 [taxonomies]
@@ -31,7 +31,7 @@ You know how a neural network works? It mostly plays with the weights and biases
 
 Let's learn more about feedforward networks, and how they work differently from backpropagation...
 
-Well, backprop is like a good kid, who learns from it's mistakes. When a neural net starts by making a prediction and calculating how far off it is using a [loss function](https://en.wikipedia.org/wiki/Loss_function#:~:text=In%20mathematical%20optimization%20and%20decision,cost%22%20associated%20with%20the%20event.). Then, using [gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w&ab_channel=3Blue1Brown), it traces the error backward through the network, layer by layer, adjusting the weights based on how much each contributed to the mistake. This process, powered by the chain rule, helps the network improve step by step until it makes accurate predictions. [Watch this!](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3&ab_channel=3Blue1Brown)
+Well, backprop is like a good kid, who learns from its mistakes. When a neural net starts by making a prediction and calculating how far off it is using a [loss function](https://en.wikipedia.org/wiki/Loss_function#:~:text=In%20mathematical%20optimization%20and%20decision,cost%22%20associated%20with%20the%20event.). Then, using [gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w&ab_channel=3Blue1Brown), it traces the error backward through the network, layer by layer, adjusting the weights based on how much each contributed to the mistake. This process, powered by the chain rule, helps the network improve step by step until it makes accurate predictions. [Watch this!](https://www.youtube.com/watch?v=Ilg3gGewQ5U&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=3&ab_channel=3Blue1Brown)
 
 {{ figure(src="/img/transformer-insights/backprop2.avif", alt="chain rule", caption="Chain rule") }}
 
@@ -45,11 +45,11 @@ But in 2017, it changed.
 
 Ever heard about the word "attention"? Yes. It's mostly the same thing that your girlfriend wants.
 
-A group of reasearchers at Google came up with a paper named [*Attention Is All You Need*](/img/transformer-insights/aiayn.pdf), introducing transformers, which then replaced recurrence with [self-attention](https://en.wikipedia.org/wiki/Attention_(machine_learning)), allowing models to process entire sequences in parallel. This made training much faster, eliminated vanishing gradient issues, and improved handling of long-range dependencies. Unlike RNNs and LSTMs, Transformers scale well with data and compute, enabling breakthroughs in NLP and powering models like [GPT](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) and [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)). Their ability to generalize across tasks with minimal fine-tuning further are what dominanating the modern AI.
+A group of researchers at Google came up with a paper named [*Attention Is All You Need*](/img/transformer-insights/aiayn.pdf), introducing transformers, which then replaced recurrence with [self-attention](https://en.wikipedia.org/wiki/Attention_(machine_learning)), allowing models to process entire sequences in parallel. This made training much faster, eliminated vanishing gradient issues, and improved handling of long-range dependencies. Unlike RNNs and LSTMs, Transformers scale well with data and compute, enabling breakthroughs in NLP and powering models like [GPT](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer) and [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)). Their ability to generalize across tasks with minimal fine-tuning further is what dominates modern AI.
 
 # Breaking It Down
 
-Self-attention helps a model focus on the most important words in a sentence, no matter where they appear. Instead of reading words one by one like older models, transformers look at the whole sentence at once and decide which words relate most to each other. For example, in the sentence *"The cat, which was sitting on the mat, was purring because it was happy,"* the word *"it"* refers to *"cat."* Self-attention helps [machine translation](https://en.wikipedia.org/wiki/Machine_translation) and [natural language generation](https://en.wikipedia.org/wiki/Natural_language_generation).
+Self-attention helps a model focus on the most important words in a sentence, no matter where they appear. Instead of reading words one by one like older models, transformers look at the whole sentence at once and decide which words relate most to each other. For example, in the sentence *"The cat, which was sitting on the mat, was purring because it was happy"*, the word *"it"* refers to *"cat"*. Self-attention helps [machine translation](https://en.wikipedia.org/wiki/Machine_translation) and [natural language generation](https://en.wikipedia.org/wiki/Natural_language_generation).
 
 <p align="center"> $ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V $ </p>
 
@@ -63,7 +63,7 @@ And because GPTs need a job, not just vibes, we fine-tune them, which basically 
 
 But are they perfect? No... transformers have some major challenges. They require a lot of computing power, making them expensive to train and run. They also struggle with bias, often reflecting the flaws in the data they were trained on. Additionally, they sometimes generate hallucinations, confident but incorrect answers, making them unreliable in certain situations. 
 
-Lastly, I would like to add that while transformers lead today, but the world's really moving fast, and we get to see new innovations almost every day. Like, [Mixture of Experts (MoE)](https://en.wikipedia.org/wiki/Mixture_of_experts) reduces computation by activating only needed parts, while [Retrieval Augmented Generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) integrates real-world data.
+Lastly, while transformers lead today, the world's moving fast, and we get to see new innovations almost every day. For example, [Mixture of Experts (MoE)](https://en.wikipedia.org/wiki/Mixture_of_experts) reduces computation by activating only needed parts, while [Retrieval Augmented Generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) integrates real-world data.
 
 But that's a discussion for another blog.
 

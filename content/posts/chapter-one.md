@@ -25,9 +25,9 @@ reaction = false
 
 Welcome again!
 
-I've always wanted to start my own blog, and thanks to the support of some of my favorite people, I finally have. This site isn’t just posts; it's about my life's (*occasional*) randomness.  
+I've always wanted to start my own blog, and thanks to the support of some of my favorite people, I finally have. This site isn’t just about posts, it's about the (*occasional*) randomness of my life.  
 
-It’s mostly satirical, much like my life. Through it, I’ll share my boring little adventures. I’m incredibly grateful to each of you reading this. Certain aspects may not be perfect since I’m still figuring things out, so *bear with me*.  
+It’s mostly satirical, much like my existence. Through it, I’ll share my boring little adventures. I’m incredibly grateful to each of you reading this. Some things may not be perfect since I’m still figuring things out, so *bear with me*.  
 
 Cheers,
 
