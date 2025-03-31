@@ -29,7 +29,9 @@ It's been a long time. Well, it's more like an update. Basically, college has be
 
 {{ figure(src="/img/bro-split-continues/img2.avif", alt="two birds outside my window", caption="They came to check on how the placement prep was going.") }}
 
-One constant? Man, I've become obsessed with the gym. More like escapism? I don't know. Have you ever seen those guys on the internet who tell you to become the ULTIMATE version of yourself? Me neither. But people tell me I'm trying to be one. I remember when watching movies and shows was fun, when it didn’t leave me with any regret.
+One constant? Man, I've become obsessed with the gym. More like escapism? I don't know.
+
+Have you ever seen those guys on the internet who tell you to become the ULTIMATE version of yourself? Me neither. But people tell me I'm trying to be one. I remember when watching movies and shows was fun, when it didn’t leave me with any regret.
 
 Is it a good thing, though? I mean, I ain't enjoying it.
 

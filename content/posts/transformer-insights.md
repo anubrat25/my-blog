@@ -57,7 +57,7 @@ $Q$ (Query), $K$ (Key), and $V$ (Value) transform the input to determine word at
 
 Transformers are built using layers that process information efficiently. The key parts include self-attention, which helps the model understand relationships between words, and feedforward layers, which refine the output. They also use [positional encoding](https://medium.com/@hunter-j-phillips/positional-encoding-7a93db4109e6) to remember the order of words, since they don’t process text sequentially like RNNs. By stacking multiple layers of these components, transformers can handle complex language tasks, making them much more powerful than older models.
 
-{{ figure(src="/img/transformer-insights/ta2.avif", alt="transformer architecture", caption="(a) One encoder layer and one decoder layer. (b) Two encoder layers and two decoder layers. The sublayers are labelled as well.") }}
+{{ figure(src="/img/transformer-insights/ta2.avif", alt="transformer architecture", caption="(a) One encoder layer and one decoder layer. (b) Two encoder layers and two decoder layers.") }}
 
 And because GPTs need a job, not just vibes, we fine-tune them, which basically means training it on a specific task with new data. Instead of training a model from scratch, fine-tuning allows a model to quickly adapt to new domains like medical diagnosis, legal analysis, or chatbots, just to save and computational power.
 
