@@ -33,7 +33,7 @@ One constant? Man, I've become obsessed with the gym. More like escapism? I don'
 
 Is it a good thing, though? I mean, I ain't enjoying it.
 
-{{ figure(src="/img/bro-split-continues/img5.avif", alt="a tasty burger", caption="Dear shooting star, FAANG! FAANG!") }}
+{{ figure(src="/img/bro-split-continues/img5.avif", alt="a tasty burger", caption="Oh, shooting star, FAANG! FAANG!") }}
 
 You promise yourself to be productive, and the same night, you end up spending hours chilling with your friends on the balcony, talking and self-roasting.
 
