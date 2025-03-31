@@ -2,7 +2,7 @@
 base_url = "https://anubratbora.me"
 
 title = "Anubrat Bora"
-description = "Playing the Ultimate 5D Chess"
+description = "'80s Soft Rock got me 🎵"
 default_language = "en"
 theme = "serene"
 output_dir = "public"
