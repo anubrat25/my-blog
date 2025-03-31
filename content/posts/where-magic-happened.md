@@ -37,7 +37,7 @@ The next day, guests came over. Well (don't tell them), but usually, I'm not ver
 
 {{ figure(src="/img/where-magic-happened/img3.avif", alt="barbeque at our home", caption="It's because of that holy spirit that I'm sharing my food.") }}
 
-25th, The Christmas Day! And everything was just so perfect. San‘TA’ had brought us sweets and gifts (as always). Interestingly enough, I put lights around our front porch this time. *Funnily enough, the neighbors thought we had changed religion.*
+25th, The Christmas Day! And everything was just so perfect. San(Ta) had brought us sweets and gifts (as always). Interestingly enough, I put lights around our front porch this time. *Funnily enough, the neighbors thought we had changed religion.*
 
 Additionally, that morning car ride to an *unknown planet altogether* was something else.
 
