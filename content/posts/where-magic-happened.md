@@ -6,7 +6,7 @@ draft = false
 
 [taxonomies]
 categories = ["personal"]
-tags = ["personal"]
+tags = ["home"]
 
 [extra]
 lang = "en"
