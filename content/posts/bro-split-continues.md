@@ -21,7 +21,7 @@ featured = false
 reaction = false
 +++
 
-I have gained, not memories not grades, but weight. Fat, you say? I say it's bulking.
+I have gained, not memories, not grades, but weight. Fat, you say? I say it's bulking.
 
 {{ figure(src="/img/bro-split-continues/img1.avif", alt="happy meal", caption="How can you NOT bulk when this is around?") }}
 
