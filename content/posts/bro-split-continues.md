@@ -33,7 +33,7 @@ One constant? Man, I've become obsessed with the gym. More like escapism? I don'
 
 Have you ever seen those guys on the internet who tell you to become the ULTIMATE version of yourself? Me neither. But people tell me I'm trying to be one. I remember when watching movies and shows was fun, when it didn’t leave me with any regret.
 
-Is it a good thing, though? I mean, I ain't enjoying it.
+Is it a good thing? 'Cause I ain't enjoyin' it.
 
 {{ figure(src="/img/bro-split-continues/img5.avif", alt="a tasty burger", caption="Oh, shooting star, FAANG! FAANG!") }}
 
