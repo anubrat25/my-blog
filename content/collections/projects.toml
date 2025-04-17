@@ -8,7 +8,7 @@ tags = ["transformers", "deeplearning", "pytorch"]
 [[collection]]
 type = "card"
 title = "Fine-Tuning Llama for SQL Query Generation"
-link = "https://www.llama.com/docs/overview/"
+link = "https://colab.research.google.com/drive/1sN4-0RMBc4qJlz7Xla7g5SdSj1EOVg9d"
 content = "Fine-tuned Llama on English-to-SQL queries using LoRA and efficient fine-tuning, cutting inference errors by 25%. Built a preprocessing pipeline to clean, tokenize, and balance data, boosting training efficiency and SQL accuracy."
 tags = ["llm", "finetuning", "sql"]
 
