@@ -27,7 +27,7 @@ Basically, diffusion models are [generative models](https://en.wikipedia.org/wik
 
 These models learns to reverse the gradual corruption of data by any [noise](https://en.wikipedia.org/wiki/Noisy_data), which then consists of two main parts: *the Forward Process*, where the original data is progressively corrupted by adding noise over time, and *the Reverse Process*, where the model learns to denoise the corrupted data step-by-step, eventually recovering the original data or generating new, similar data from pure noise. The model is trained to predict the noise added at each timestep, and once trained, it can generate new data by progressively denoising random noise.
 
-# Working Mechanism
+# Some Maths
 
 *The forward process* is where we progressively add noise to the data. If we start with a clean image $\( \mathbf{x}_0 \)$, we apply noise at each timestep $\( t \)$. After several steps, the image becomes pure noise. The noise at each step is Gaussian noise, and the level of noise increases over time.
 
