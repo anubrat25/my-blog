@@ -29,7 +29,7 @@ And at its core, it basically is a technique that enables [generative artificial
 
 As LLMs often hallucinate or become outdated, so RAG helps.
 
-{{ figure(src="/img/rag-101/rag2.avif", alt="rag pipeline", caption="RAG Pipeline") }}
+{{ figure(src="/img/rag/rag2.avif", alt="rag pipeline", caption="RAG Pipeline") }}
 
 *Fine-tuning vs. RAG* comes down to internalization vs. real-time grounding. Fine-tuning updates a model’s weights with task-specific data, useful for static tasks requiring deep reasoning. RAG, on the other hand, retrieves updated content without retraining, offering lower cost and more flexibility. It’s ideal for dynamic, fact-heavy applications, while fine-tuning is better for logic-centric or controlled tasks.
 
