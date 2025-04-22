@@ -1,5 +1,5 @@
 +++
-title = "That One Time"
+title = "Magical Times"
 description = "The best time of the year, spent at home."
 date = 2024-01-25
 draft = false

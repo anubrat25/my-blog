@@ -21,9 +21,7 @@ featured = false
 reaction = false
 +++
 
-Just like *Weekend at Barnie's*, my third semester has been a mixed bag but one thing that I’ve been enjoying the most are my perfect weekends. All thanks to the amazing group of friends I have. (No puns, none at all)
-
-Without you, weekends are just days you get for extra sleep, which is *bad*? Ah, anyway... the concept of a perfect weekend often varies from person to person, shaped by individual preferences. And for me, this weekend *rocked!*
+As always, I’ve been enjoying the weekends, thanks to the amazing group of friends I have (No puns, none at all). Without you, weekends are just days you get for extra sleep, which is *bad*? Ah, anyway... the concept of a perfect weekend often varies from person to person, shaped by individual preferences. And for me, this weekend *rocked!*
 
 {{ figure(src="/img/weekend-at-balconies/img1.avif", alt="sky with rainbow", caption="This is where the magic happens! (And fights too.)") }}
 
