@@ -1,5 +1,5 @@
 +++
-title = "Weekend at Balconies"
+title = "Weekends at Balcony"
 description = "Perfect rainy weekends..."
 date = 2023-10-11
 draft = false

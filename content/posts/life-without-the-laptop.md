@@ -1,5 +1,5 @@
 +++
-title = "Life Without the Laptop"
+title = "Really Unplugged"
 description = "A cozy family trip with lots of food and shopping."
 date = 2024-09-29
 draft = false

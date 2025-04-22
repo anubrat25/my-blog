@@ -1,5 +1,5 @@
 +++
-title = "Basics of RAG"
+title = "RAG 101"
 description = "About the advantages of RAG above fine-tuning."
 date = 2025-04-05
 draft = false
