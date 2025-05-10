@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+    
+  
+  <meta name="description" content="Based on the paper, Attention Is All You Need.">
+
+  <title>Understanding Transformers</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://anubratbora.me/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://anubratbora.me/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://anubratbora.me/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a233;
+    --primary-decoration-color: #5871a210;
+    --bg-color: #ffffff;
+    --text-color: #2f3030;
+    --text-pale-color: #767676;
+    --text-decoration-color: #a9a9a9;
+    --highlight-mark-color: #5f75b020;
+
+    --callout-note-color: #5871a2;
+    --callout-tip-color: #268556;
+    --callout-important-color: #885fc9;
+    --callout-warning-color: #ab6632;
+    --callout-caution-color: #c64e4e;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #6f8fd1;
+    --primary-pale-color: #6f8fd166;
+    --primary-decoration-color: #6f8fd112;
+    --bg-color: #1c1c1c;
+    --text-color: #c1c1c1;
+    --text-pale-color: #848484;
+    --text-decoration-color: #5f5f5f;
+    --highlight-mark-color: #8296cb3b;
+
+    --callout-note-color: #6f8fd1;
+    --callout-tip-color: #47976f;
+    --callout-important-color: #9776cd;
+    --callout-warning-color: #ad7a52;
+    --callout-caution-color: #d06161;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 56px;
+    --font-size: 16px;
+    --line-height: 1.75;
+    --img-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-decoration-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="https://anubratbora.me/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false },
+                { left: '\\(', right: '\\)', display: false },
+                { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false
+        });
+    });
+</script>
+
+
+  
+</head>
+
+<body class="post">
+  
+  
+<div id="wrapper">
+  <div id="blank"></div>
+  <aside>
+    
+    
+    
+    <button id="back-to-top" aria-label="back to top">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+
+    </button>
+    
+  </aside>
+  <main>
+    
+<header>
+  <nav>
+    <a href="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts">← Back</a>
+  </nav>
+</header>
+
+
+    <div>
+      
+      
+      
+      
+      <div id="copy-cfg" style="display: none;" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+"></div>
+      
+      <article class="prose">
+        <h1>Understanding Transformers</h1>
+        <div id="post-info">
+          <div id="date">
+            <span id="publish">Mar 31, 2025</span>
+            </div>
+
+          
+          <div id="tags">
+            <a class="instant" href="https://anubratbora.me/tags/ai"><span>#</span>ai</a>
+          </div>
+          
+        </div>
+
+        
+        
+
+        
+
+        <p>Okay.</p>
+<p>So, basically if you are new to this and don't have much experience in deep learning or math, worry not. I got you.</p>
+<p>You know how a neural network works? It mostly plays with the weights and biases to make predictions. No? Go find out... <a rel="noopener nofollow noreferrer" target="_blank" href="https://www.youtube.com/watch?v=aircAruvnKk&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;ab_channel=3Blue1Brown">Intro</a></p>
+<figure>
+    <img src="&#x2F;img&#x2F;transformers&#x2F;neural-netv2.avif"  alt="a basic neural network">
+    
+    <figcaption>A basic neural network</figcaption>
+    
+</figure>
+<p>Let's learn more about feedforward networks, and how they work differently from backpropagation...</p>
+<p>Well, backprop is like a good kid, who learns from its mistakes. When a neural net starts by making a prediction and calculating how far off it is using a <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Loss_function#:~:text=In%20mathematical%20optimization%20and%20decision,cost%22%20associated%20with%20the%20event.">loss function</a>. Then, using <a rel="noopener nofollow noreferrer" target="_blank" href="https://www.youtube.com/watch?v=IHZwWFHWa-w&amp;ab_channel=3Blue1Brown">gradient descent</a>, it traces the error backward through the network, layer by layer, adjusting the weights based on how much each contributed to the mistake. This process, powered by the chain rule, helps the network improve step by step until it makes accurate predictions. <a rel="noopener nofollow noreferrer" target="_blank" href="https://www.youtube.com/watch?v=Ilg3gGewQ5U&amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;index=3&amp;ab_channel=3Blue1Brown">Watch this!</a></p>
+<figure>
+    <img src="&#x2F;img&#x2F;transformers&#x2F;backprop2.avif"  alt="chain rule">
+    
+    <figcaption>Chain rule</figcaption>
+    
+</figure>
+<p>Why limit myself to human friends when I have ChatGPT that remembers my interests, never cancels plans, and can debug my code at 3 AM?</p>
+<p>But have you ever thought how it works? These are known as <em>Large Language Models</em> or simply, LLMs.</p>
+<p>Earlier, sequence-based tasks were done using <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Recurrent_neural_network">RNNs</a>, <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.m.wikipedia.org/wiki/Long_short-term_memory">LSTMs</a> and <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Gated_recurrent_unit">GRUs</a>. But it wasn't enough as they had problems. Problems such as <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Vanishing_gradient_problem">vanishing gradients</a>, slow training, poor handling of long range dependencies or tokens.</p>
+<p>But in 2017, it changed.</p>
+<p>Ever heard about the word "attention"? Yes. It's mostly the same thing that your girlfriend wants.</p>
+<p>A group of researchers at Google came up with a paper named <a href="/img/transformer-insights/aiayn.pdf"><em>Attention Is All You Need</em></a>, introducing transformers, which then replaced recurrence with <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">self-attention</a>, allowing models to process entire sequences in parallel. This made training much faster, eliminated vanishing gradient issues, and improved handling of long-range dependencies. Unlike RNNs and LSTMs, Transformers scale well with data and compute, enabling breakthroughs in NLP and powering models like <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer">GPT</a> and <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/BERT_(language_model)">BERT</a>. Their ability to generalize across tasks with minimal fine-tuning further is what dominates modern AI.</p>
+<h1 id="breaking-it-down">Breaking It Down<a class="zola-anchor" href="#breaking-it-down" aria-label="Anchor link for: breaking-it-down" style="visibility: hidden;"></a>
+</h1>
+<p>Self-attention helps a model focus on the most important words in a sentence, no matter where they appear. Instead of reading words one by one like older models, transformers look at the whole sentence at once and decide which words relate most to each other. For example, in the sentence <em>"The cat, which was sitting on the mat, was purring because it was happy"</em>, the word <em>"it"</em> refers to <em>"cat"</em>. Self-attention helps <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Machine_translation">machine translation</a> and <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Natural_language_generation">natural language generation</a>.</p>
+<p>$$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V $$</p>
+<p>where, $Q$ (Query), $K$ (Key), and $V$ (Value) transform the input to determine word attention. The scaling factor $d_k$ stabilizes gradients, while softmax normalizes attention scores to ensure they sum to 1.</p>
+<p>Transformers are built using layers that process information efficiently. The key parts include self-attention, which helps the model understand relationships between words, and feedforward layers, which refine the output. They also use <a rel="noopener nofollow noreferrer" target="_blank" href="https://medium.com/@hunter-j-phillips/positional-encoding-7a93db4109e6">positional encoding</a> to remember the order of words, since they don’t process text sequentially like RNNs. By stacking multiple layers of these components, transformers can handle complex language tasks, making them much more powerful than older models.</p>
+<figure>
+    <img src="&#x2F;img&#x2F;transformers&#x2F;ta2.avif"  alt="transformer architecture">
+    
+    <figcaption>(a) One encoder layer and one decoder layer. (b) Two encoder layers and two decoder layers.</figcaption>
+    
+</figure>
+<p>And because GPTs need a job, not just vibes, we fine-tune them, which basically means training it on a specific task with new data. Instead of training a model from scratch, fine-tuning allows a model to quickly adapt to new domains like medical diagnosis, legal analysis, or chatbots, just to save and computational power.</p>
+<p>But are they perfect? No... transformers have some major challenges. They require a lot of computing power, making them expensive to train and run. They also struggle with bias, often reflecting the flaws in the data they were trained on. Additionally, they sometimes generate hallucinations, confident but incorrect answers, making them unreliable in certain situations.</p>
+<p>Lastly, while transformers lead today, the world's moving fast, and we get to see new innovations almost every day. For example, <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of Experts (MoE)</a> reduces computation by activating only needed parts, while <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">Retrieval Augmented Generation (RAG)</a> integrates real-world data.</p>
+<p>But that's a discussion for another blog.</p>
+<p>See you soon.</p>
+
+      </article>
+
+      
+      
+
+      
+      
+    </div>
+
+    
+
+
+<footer>
+  <div class="left">
+    <div class="copyright">
+      © 2025 Anubrat Bora
+      
+    </div>
+  </div>
+
+  <div class="right">
+    
+    
+      
+    
+    
+    <a id="rss-btn" href="https://anubratbora.me/posts/feed.xml">RSS</a>
+    
+    
+
+    
+  </div>
+</footer>
+
+
+
+
+<dialog id="rss-mask">
+  <div>
+    <a href="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml">https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml</a>
+    
+    
+    <button autofocus aria-label="copy" data-link="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z" fill="currentColor"></path></svg>
+
+    </button>
+  </div>
+</dialog>
+
+
+
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+
+  <script src="https://anubratbora.me/js/main.js"></script>
+</body>
+
+</html>

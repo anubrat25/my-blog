@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+    
+  
+  <meta name="description" content="Explaining the working of Diffusion Models">
+
+  <title>Diffusion Models, Simply</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://anubratbora.me/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://anubratbora.me/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://anubratbora.me/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a233;
+    --primary-decoration-color: #5871a210;
+    --bg-color: #ffffff;
+    --text-color: #2f3030;
+    --text-pale-color: #767676;
+    --text-decoration-color: #a9a9a9;
+    --highlight-mark-color: #5f75b020;
+
+    --callout-note-color: #5871a2;
+    --callout-tip-color: #268556;
+    --callout-important-color: #885fc9;
+    --callout-warning-color: #ab6632;
+    --callout-caution-color: #c64e4e;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #6f8fd1;
+    --primary-pale-color: #6f8fd166;
+    --primary-decoration-color: #6f8fd112;
+    --bg-color: #1c1c1c;
+    --text-color: #c1c1c1;
+    --text-pale-color: #848484;
+    --text-decoration-color: #5f5f5f;
+    --highlight-mark-color: #8296cb3b;
+
+    --callout-note-color: #6f8fd1;
+    --callout-tip-color: #47976f;
+    --callout-important-color: #9776cd;
+    --callout-warning-color: #ad7a52;
+    --callout-caution-color: #d06161;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 56px;
+    --font-size: 16px;
+    --line-height: 1.75;
+    --img-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-decoration-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="https://anubratbora.me/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" integrity="sha384-HORx6nWi8j5/mYA+y57/9/CZc5z8HnEw4WUZWy5yOn9ToKBv1l58vJaufFAn9Zzi" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false },
+                { left: '\\(', right: '\\)', display: false },
+                { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false
+        });
+    });
+</script>
+
+
+  
+</head>
+
+<body class="post">
+  
+  
+<div id="wrapper">
+  <div id="blank"></div>
+  <aside>
+    
+    
+    
+    <button id="back-to-top" aria-label="back to top">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+
+    </button>
+    
+  </aside>
+  <main>
+    
+<header>
+  <nav>
+    <a href="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts">← Back</a>
+  </nav>
+</header>
+
+
+    <div>
+      
+      
+      
+      
+      <div id="copy-cfg" style="display: none;" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+"></div>
+      
+      <article class="prose">
+        <h1>Diffusion Models, Simply</h1>
+        <div id="post-info">
+          <div id="date">
+            <span id="publish">Apr 20, 2025</span>
+            </div>
+
+          
+          <div id="tags">
+            <a class="instant" href="https://anubratbora.me/tags/ai"><span>#</span>ai</a>
+          </div>
+          
+        </div>
+
+        
+        
+
+        
+
+        <p>Last night, I saw my friend drawing some anime girl while he had <em>"Diffusion Models"</em> opened on his laptop. And yes, that's enough motivation.</p>
+<p>Basically, diffusion models are <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Generative_model">generative models</a>. As in <em>discriminative vs. generative?</em> Right? <a rel="noopener nofollow noreferrer" target="_blank" href="https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf">Check out!</a></p>
+<p>These models learns to reverse the gradual corruption of data by any <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Noisy_data">noise</a>, which then consists of two main parts: <em>the Forward Process</em>, where the original data is progressively corrupted by adding noise over time, and <em>the Reverse Process</em>, where the model learns to denoise the corrupted data step-by-step, eventually recovering the original data or generating new, similar data from pure noise. The model is trained to predict the noise added at each timestep, and once trained, it can generate new data by progressively denoising random noise.</p>
+<h1 id="some-maths">Some Maths<a class="zola-anchor" href="#some-maths" aria-label="Anchor link for: some-maths" style="visibility: hidden;"></a>
+</h1>
+<p><em>The forward process</em> is where we progressively add noise to the data. If we start with a clean image $( \mathbf{x}_0 )$, we apply noise at each timestep $( t )$. After several steps, the image becomes pure noise. The noise at each step is Gaussian noise, and the level of noise increases over time.</p>
+<p>$$\mathbf{x}_t = \bar{\alpha}_t \mathbf{x}_0 + \sqrt{1 - \bar{\alpha}_t} \boldsymbol{\epsilon}$$</p>
+<p>where, $( \mathbf{x}_0 )$ is the clean image, $( \mathbf{x}_t )$ is the noisy image at timestep ( t ) and $( \boldsymbol{\epsilon} )$ is random noise from a Gaussian distribution.</p>
+<p>After the forward process, we want to recover the original data. This is where the <em>reverse process</em> comes into play. We train a neural network to learn how to predict the noise $( \boldsymbol{\epsilon} )$ that was added at each step.</p>
+<p>$$
+p_\theta(x_{t-1} \mid x_t) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t), \sigma_t^2 I)
+$$</p>
+<p>where, $\mu_\theta(x_t, t)$ is the model’s predicted mean (the denoised image at step $t-1$) and $\sigma_t^2 I$ is the variance, often a fixed schedule.</p>
+<p>By repeatedly applying this reverse process, starting with pure noise, the model can generate new data.</p>
+<p>The loss function used to train the model is typically the Mean Squared Error (MSE) between the model's predicted noise and the true noise added during the forward process:</p>
+<p>$$
+L = \mathbb{E} [ (\epsilon - \epsilon_\theta)^2 ]
+$$</p>
+<p>where, $\epsilon$ is the true noise added to the data and $\epsilon_\theta$ is the noise predicted by the model.</p>
+<figure>
+    <img src="&#x2F;img&#x2F;diffusion-models&#x2F;denoising.avif"  alt="denoising in diffusion models">
+    
+    <figcaption>The denoising process used by Stable Diffusion</figcaption>
+    
+</figure>
+<p>After training, the model can generate new data by starting with pure noise and applying the reverse process. The model progressively denoises the image step-by-step until it has generated a new, clean image.</p>
+<p>Stable Diffusion is a <em>latent diffusion model</em>, which means it operates in a compressed latent space rather than directly on high-dimensional image space. This makes the process much faster and less computationally expensive. By using a pre-trained <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Variational_autoencoder">variational autoencoder (VAE)</a> to compress images into latent vectors, Stable Diffusion can generate high-resolution images in just a few seconds with reasonable GPU power.</p>
+<p>Diffusion models are known for their <em>training stability</em>. Unlike <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Generative_adversarial_network">GANs</a>, where the generator and discriminator need to be carefully balanced, diffusion models are less prone to <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Mode_collapse">mode collapse</a> and other training instabilities.</p>
+<p>Recent advancements have made diffusion models more <em>computationally efficient</em>, with models like <a rel="noopener nofollow noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/Latent_diffusion_model">LDM (Latent Diffusion Models)</a> and <a rel="noopener nofollow noreferrer" target="_blank" href="https://fanpu.io/blog/2023/score-based-diffusion-models/">Score-based Model</a> <em>using lower-resolution latent spaces</em>, reducing memory and computation time while maintaining high-quality outputs.</p>
+<p>But that's a discussion for another blog.</p>
+<p>See you soon.</p>
+
+      </article>
+
+      
+      
+
+      
+      
+    </div>
+
+    
+
+
+<footer>
+  <div class="left">
+    <div class="copyright">
+      © 2025 Anubrat Bora
+      
+    </div>
+  </div>
+
+  <div class="right">
+    
+    
+      
+    
+    
+    <a id="rss-btn" href="https://anubratbora.me/posts/feed.xml">RSS</a>
+    
+    
+
+    
+  </div>
+</footer>
+
+
+
+
+<dialog id="rss-mask">
+  <div>
+    <a href="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml">https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml</a>
+    
+    
+    <button autofocus aria-label="copy" data-link="https:&#x2F;&#x2F;anubratbora.me&#x2F;posts&#x2F;feed.xml" data-copy-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" data-check-icon="&lt;svg xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;18&quot; height=&quot;18&quot;&gt;&lt;path d=&quot;M10.0007 15.1709L19.1931 5.97852L20.6073 7.39273L10.0007 17.9993L3.63672 11.6354L5.05093 10.2212L10.0007 15.1709Z&quot; fill=&quot;currentColor&quot;&gt;&lt;&#x2F;path&gt;&lt;&#x2F;svg&gt;
+" >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z" fill="currentColor"></path></svg>
+
+    </button>
+  </div>
+</dialog>
+
+
+
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+
+
+  <script src="https://anubratbora.me/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>My Blogs</title>
+	<subtitle>My blog site.</subtitle>
+	<link href="https://anubratbora.me/posts/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://anubratbora.me/posts/"/>
+	<updated>2025-05-02T00:00:00+00:00</updated>
+	<id>https://anubratbora.me/posts/feed.xml</id>
+	<entry xml:lang="en">
+		<title>Singularity</title>
+		<published>2025-05-02T00:00:00+00:00</published>
+		<updated>2025-05-02T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/black-holes/" type="text/html"/>
+		<id>https://anubratbora.me/posts/black-holes/</id>
+		<content type="html">&lt;p&gt;Okay. So it&#x27;s 3 AM in the night, and insomnia is peaking! But I found something interesting on the internet.&lt;&#x2F;p&gt;
+&lt;p&gt;Black holes. I remember being in middle school, completely confused about what they are. And the way they were shown in &lt;em&gt;Interstellar&lt;&#x2F;em&gt;, it was the coolest thing ever for me, and guess what? It still is.&lt;&#x2F;p&gt;
+&lt;p&gt;(&lt;em&gt;Spoiler alert!&lt;&#x2F;em&gt;) As said in &lt;em&gt;Interstellar&lt;&#x2F;em&gt;, Love transcends both space and time... and so does gravity. Cooper could pass the quantum data to Murph because of love, he knew she would decode it from the fifth dimension.&lt;&#x2F;p&gt;
+&lt;p&gt;A black is simply a region where gravity is so strong that even light cannot escape. At it&#x27;s core lies singulartiy (so infinitely dense that the known laws of physics break down),  wrapped around by the event horizon.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter Einstein, two radical theories that changed the way we see the universe: &lt;em&gt;Special&lt;&#x2F;em&gt; and &lt;em&gt;General Relativity&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;black-holes&amp;#x2F;stc.avif&quot;  alt=&quot;space-time curvature&quot;&gt;
+    
+    &lt;figcaption&gt;The space-time curvature&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Special Relativity (1905) reshaped our understanding of space and time. It showed that the laws of physics are the same for all observers moving at constant speeds, and that the speed of light is the same for everyone, regardless of their motion. This led to surprising conclusions: time can pass more slowly for someone moving near the speed of light (time dilation), and lengths can appear shorter (length contraction). These effects are quantified by the Lorentz factor:
+$$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} $$
+One of the most famous outcomes of this theory is the equation
+$$ E = mc^2 $$
+which reveals that mass is simply a form of energy. This principle plays a crucial role in astrophysics, helping to explain how stars release energy through nuclear fusion and ultimately how they can collapse under their own gravity to form black holes once their fuel runs out. &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Special_relativity&quot;&gt;Read more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;General Relativity&lt;&#x2F;em&gt; (1915), expanded these ideas by including acceleration and gravity. Rather than viewing gravity as a force pulling objects together, Einstein described it as the effect of mass curving the fabric of space and time. Large masses like stars and planets create dents or warps in spacetime, and objects move along these curves. The Einstein Field Equation
+$$ R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu} $$
+mathematically expresses how matter and energy determine the curvature of spacetime. One of the most fascinating predictions of General Relativity is the black hole, a region where the curvature becomes so extreme that nothing, not even light, can escape. The boundary of this region is known as the event horizon, beyond which all paths lead inward toward a singularity, a point of infinite density. &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_relativity&quot;&gt;Read more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-if-you-fall-into-a-black-hole&quot;&gt;What If You Fall Into a Black Hole?&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-if-you-fall-into-a-black-hole&quot; aria-label=&quot;Anchor link for: what-if-you-fall-into-a-black-hole&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;As you fall into a black hole, time slows down, space twists, and tidal forces stretch your body like spaghetti, it’s called &lt;em&gt;spaghettification&lt;&#x2F;em&gt;. Your feet experience stronger gravity than your head. If you&#x27;re unlucky enough to fall in feet first, you&#x27;ll be torn apart molecule by molecule.&lt;&#x2F;p&gt;
+&lt;p&gt;Back holes aren&#x27;t forever though. In 1974, Stephen Hawking stunned the world by suggesting that black holes emit radiation due to quantum effects near the event horizon. This glow is called &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hawking_radiation#:~:text=Hawking%20radiation%20is%20predicted%20to,consequently%20cause%20black%20hole%20evaporation.&quot;&gt;Hawking Radiation&lt;&#x2F;a&gt;, and it slowly drains the black hole&#x27;s mass. Eventually, a black hole could evaporate entirely — disappearing in a final burst of energy.&lt;&#x2F;p&gt;
+&lt;p&gt;This revelation gave black holes a new twist: they’re not just gravitational monsters. They&#x27;re also thermodynamic systems, with entropy and temperature. Physics has never been the same.&lt;&#x2F;p&gt;
+&lt;p&gt;In theory, black holes might be connected to &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wormhole&quot;&gt;wormholes&lt;&#x2F;a&gt; or &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;White_hole&quot;&gt;white holes&lt;&#x2F;a&gt;. Are black holes doorways to other universes? Quantum physicists think it’s not impossible.&lt;&#x2F;p&gt;
+&lt;p&gt;And in April 2019, we saw the Event Horizon Telescope captured the shadow of &lt;em&gt;M87&lt;&#x2F;em&gt;, a black hole 55 million light-years away.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;black-holes&amp;#x2F;bh-latest.avif&quot;  alt=&quot;shadow of m87 taken by the event horizon telescope&quot;&gt;
+    
+    &lt;figcaption&gt;Shadow of M87 taken by the Event Horizon Telescope&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Black holes aren’t just collapsed stars. They’re cosmic paradoxes, they erase information, yet emit radiation. Even crazier? At the singularity, both General and Special Relativity fail. We need a quantum theory of gravity.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s for another time.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Mamba Nets</title>
+		<published>2025-04-27T00:00:00+00:00</published>
+		<updated>2025-04-27T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/mamba/" type="text/html"/>
+		<id>https://anubratbora.me/posts/mamba/</id>
+		<content type="html">&lt;p&gt;Deep Mamba is a new type of neural network architecture designed to handle sequential data more efficiently than &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Transformer_(deep_learning_architecture)&quot;&gt;transformers&lt;&#x2F;a&gt;. At its core, it builds on the idea of &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;blog&#x2F;lbourdois&#x2F;get-on-the-ssm-train&quot;&gt;Structured State Space Models (SSMs)&lt;&#x2F;a&gt;, which model sequences by maintaining a continuous hidden state that evolves over time. Unlike transformers that use &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Attention_(machine_learning)&quot;&gt;self-attention&lt;&#x2F;a&gt; to look at all tokens at once, Mamba processes inputs in a streaming, step-by-step fashion, making it ideal for long sequences.&lt;&#x2F;p&gt;
+&lt;p&gt;The key innovation in Deep Mamba is something called &lt;em&gt;selective state space modeling&lt;&#x2F;em&gt;. This means that instead of blindly updating the hidden state with every input token, the model learns to filter and control which information is important at each step. This is done through dynamically learned &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Convolution&quot;&gt;convolution&lt;&#x2F;a&gt; kernels and gating mechanisms, which selectively blend new input with the current state. This control mechanism gives Mamba the ability to focus on the most relevant features in a sequence without the quadratic cost of attention.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;mamba-nets&amp;#x2F;transformers.avif&quot;  alt=&quot;the transformers block&quot;&gt;
+    
+    &lt;figcaption&gt;The Transformer Block&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;mamba-nets&amp;#x2F;mamba.avif&quot;  alt=&quot;mamba block&quot;&gt;
+    
+    &lt;figcaption&gt;The Mamba Block&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;From a computational standpoint, Deep Mamba is highly efficient. Its design allows for &lt;em&gt;linear-time complexity&lt;&#x2F;em&gt; in sequence length, which is a big improvement over the &lt;em&gt;quadratic time&lt;&#x2F;em&gt; of transformers. This means it can handle longer sequences with less memory, making it more scalable for tasks like language modeling, audio processing, or time-series prediction. Moreover, because it processes data sequentially, it’s also better suited for real-time inference tasks.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Feature&lt;&#x2F;th&gt;&lt;th&gt;Transformer&lt;&#x2F;th&gt;&lt;th&gt;Mamba&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Architecture&lt;&#x2F;td&gt;&lt;td&gt;Attention-based&lt;&#x2F;td&gt;&lt;td&gt;SSM-based&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Complexity&lt;&#x2F;td&gt;&lt;td&gt;High&lt;&#x2F;td&gt;&lt;td&gt;Lower&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Inference speed&lt;&#x2F;td&gt;&lt;td&gt;O(n)&lt;&#x2F;td&gt;&lt;td&gt;O(1)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Training speed&lt;&#x2F;td&gt;&lt;td&gt;O(n²)&lt;&#x2F;td&gt;&lt;td&gt;O(n)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;One of the most exciting developments in this space is &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2403.19887v1&quot;&gt;Jamba&lt;&#x2F;a&gt;, a hybrid model from AI21 Labs that combines transformer and Mamba-style layers. With 52 billion parameters and a 256,000-token context window, Jamba stands as the largest and most powerful Mamba-variant to date.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s a story for another day.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>DeepSeek: Redefined</title>
+		<published>2025-04-23T00:00:00+00:00</published>
+		<updated>2025-04-23T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/deepseek/" type="text/html"/>
+		<id>https://anubratbora.me/posts/deepseek/</id>
+		<content type="html">&lt;p&gt;DeepSeek&#x27;s architectural superiority lies in its optimized sparse transformer design, which replaces the traditional $O(n^2))$ attention complexity with near linear $O(n \log n)$ scaling. Utilizing block sparse attention and adaptive token skipping, the model processes long sequences faster without compromising accuracy. It further enhances efficiency with memory optimized flash attention, significantly reducing GPU memory bandwidth demands during both training and inference when compared to dense architectures like &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;GPT-4&quot;&gt;GPT4&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;deepseek&amp;#x2F;deepseek.avif&quot;  alt=&quot;model comparision&quot;&gt;
+    
+    &lt;figcaption&gt;Performance Comparision&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The model integrates an advanced &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mixture_of_experts&quot;&gt;mixture of experts (MoE)&lt;&#x2F;a&gt; framework with dynamic token routing, activating only the most relevant expert subnetworks per token. This allows DeepSeek to maintain a large overall parameter count while limiting active parameters per inference to about 50 billion, making it far more compute efficient than GPT4’s fully dense setup. A learned gating mechanism ensures optimal expert utilization, effectively overcoming the load balancing challenges seen in earlier MoE implementations. Training benefits from curriculum learning with gradually increasing sequence lengths, enabling better long document performance than models trained on fixed length inputs. This is combined with a hybrid training strategy that merges supervised fine tuning with enhanced RLHF and direct preference optimization, achieving strong alignment with fewer human annotations than ChatGPT.&lt;&#x2F;p&gt;
+&lt;p&gt;At the inference stage, DeepSeek employs cutting edge techniques such as 4 bit quantization without accuracy degradation and speculative decoding, which anticipates multiple tokens ahead for confirmation, reducing latency by 30 to 40 percent over standard autoregressive methods. Efficient KV cache management further boosts its performance on long context tasks relative to GPT4. Additionally, its open source nature supports customizable deployment, from consumer grade fine tuning with methods like &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;LoRa&quot;&gt;LoRA&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@dillipprasad60&#x2F;qlora-explained-a-deep-dive-into-parametric-efficient-fine-tuning-in-large-language-models-llms-c1a4794b1766&quot;&gt;QLoRA&lt;&#x2F;a&gt; to high throughput distributed inference on enterprise hardware. Altogether, DeepSeek delivers a compelling blend of architectural innovation and deployment flexibility, marking a major advancement in large language model design.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Diffusion Models, Simply</title>
+		<published>2025-04-20T00:00:00+00:00</published>
+		<updated>2025-04-20T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/diffusion-models/" type="text/html"/>
+		<id>https://anubratbora.me/posts/diffusion-models/</id>
+		<content type="html">&lt;p&gt;Last night, I saw my friend drawing some anime girl while he had &lt;em&gt;&quot;Diffusion Models&quot;&lt;&#x2F;em&gt; opened on his laptop. And yes, that&#x27;s enough motivation.&lt;&#x2F;p&gt;
+&lt;p&gt;Basically, diffusion models are &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Generative_model&quot;&gt;generative models&lt;&#x2F;a&gt;. As in &lt;em&gt;discriminative vs. generative?&lt;&#x2F;em&gt; Right? &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ai.stanford.edu&#x2F;~ang&#x2F;papers&#x2F;nips01-discriminativegenerative.pdf&quot;&gt;Check out!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;These models learns to reverse the gradual corruption of data by any &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Noisy_data&quot;&gt;noise&lt;&#x2F;a&gt;, which then consists of two main parts: &lt;em&gt;the Forward Process&lt;&#x2F;em&gt;, where the original data is progressively corrupted by adding noise over time, and &lt;em&gt;the Reverse Process&lt;&#x2F;em&gt;, where the model learns to denoise the corrupted data step-by-step, eventually recovering the original data or generating new, similar data from pure noise. The model is trained to predict the noise added at each timestep, and once trained, it can generate new data by progressively denoising random noise.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;some-maths&quot;&gt;Some Maths&lt;a class=&quot;zola-anchor&quot; href=&quot;#some-maths&quot; aria-label=&quot;Anchor link for: some-maths&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;The forward process&lt;&#x2F;em&gt; is where we progressively add noise to the data. If we start with a clean image $( \mathbf{x}_0 )$, we apply noise at each timestep $( t )$. After several steps, the image becomes pure noise. The noise at each step is Gaussian noise, and the level of noise increases over time.&lt;&#x2F;p&gt;
+&lt;p&gt;$$\mathbf{x}_t = \bar{\alpha}_t \mathbf{x}_0 + \sqrt{1 - \bar{\alpha}_t} \boldsymbol{\epsilon}$$&lt;&#x2F;p&gt;
+&lt;p&gt;where, $( \mathbf{x}_0 )$ is the clean image, $( \mathbf{x}_t )$ is the noisy image at timestep ( t ) and $( \boldsymbol{\epsilon} )$ is random noise from a Gaussian distribution.&lt;&#x2F;p&gt;
+&lt;p&gt;After the forward process, we want to recover the original data. This is where the &lt;em&gt;reverse process&lt;&#x2F;em&gt; comes into play. We train a neural network to learn how to predict the noise $( \boldsymbol{\epsilon} )$ that was added at each step.&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+p_\theta(x_{t-1} \mid x_t) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t), \sigma_t^2 I)
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;where, $\mu_\theta(x_t, t)$ is the model’s predicted mean (the denoised image at step $t-1$) and $\sigma_t^2 I$ is the variance, often a fixed schedule.&lt;&#x2F;p&gt;
+&lt;p&gt;By repeatedly applying this reverse process, starting with pure noise, the model can generate new data.&lt;&#x2F;p&gt;
+&lt;p&gt;The loss function used to train the model is typically the Mean Squared Error (MSE) between the model&#x27;s predicted noise and the true noise added during the forward process:&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+L = \mathbb{E} [ (\epsilon - \epsilon_\theta)^2 ]
+$$&lt;&#x2F;p&gt;
+&lt;p&gt;where, $\epsilon$ is the true noise added to the data and $\epsilon_\theta$ is the noise predicted by the model.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;diffusion-models&amp;#x2F;denoising.avif&quot;  alt=&quot;denoising in diffusion models&quot;&gt;
+    
+    &lt;figcaption&gt;The denoising process used by Stable Diffusion&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;After training, the model can generate new data by starting with pure noise and applying the reverse process. The model progressively denoises the image step-by-step until it has generated a new, clean image.&lt;&#x2F;p&gt;
+&lt;p&gt;Stable Diffusion is a &lt;em&gt;latent diffusion model&lt;&#x2F;em&gt;, which means it operates in a compressed latent space rather than directly on high-dimensional image space. This makes the process much faster and less computationally expensive. By using a pre-trained &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Variational_autoencoder&quot;&gt;variational autoencoder (VAE)&lt;&#x2F;a&gt; to compress images into latent vectors, Stable Diffusion can generate high-resolution images in just a few seconds with reasonable GPU power.&lt;&#x2F;p&gt;
+&lt;p&gt;Diffusion models are known for their &lt;em&gt;training stability&lt;&#x2F;em&gt;. Unlike &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Generative_adversarial_network&quot;&gt;GANs&lt;&#x2F;a&gt;, where the generator and discriminator need to be carefully balanced, diffusion models are less prone to &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mode_collapse&quot;&gt;mode collapse&lt;&#x2F;a&gt; and other training instabilities.&lt;&#x2F;p&gt;
+&lt;p&gt;Recent advancements have made diffusion models more &lt;em&gt;computationally efficient&lt;&#x2F;em&gt;, with models like &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Latent_diffusion_model&quot;&gt;LDM (Latent Diffusion Models)&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fanpu.io&#x2F;blog&#x2F;2023&#x2F;score-based-diffusion-models&#x2F;&quot;&gt;Score-based Model&lt;&#x2F;a&gt; &lt;em&gt;using lower-resolution latent spaces&lt;&#x2F;em&gt;, reducing memory and computation time while maintaining high-quality outputs.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s a discussion for another blog.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>RAG 101</title>
+		<published>2025-04-05T00:00:00+00:00</published>
+		<updated>2025-04-05T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/rag/" type="text/html"/>
+		<id>https://anubratbora.me/posts/rag/</id>
+		<content type="html">&lt;p&gt;Behold! As a part of my &lt;em&gt;minor project&lt;&#x2F;em&gt;, I have decided to go with this.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, RAG stands for &lt;em&gt;Retrieval Augmental Generation.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And at its core, it basically is a technique that enables &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Generative_artificial_intelligence&quot;&gt;generative artificial intelligence (Gen AI)&lt;&#x2F;a&gt; models to retrieve and imcorporate new information. It modifies interactions with &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Large_language_model&quot;&gt;LLMs&lt;&#x2F;a&gt; so that the model responds to user queries with reference to a specified set of documents, using this information to supplement information from its pre-existing training data.&lt;&#x2F;p&gt;
+&lt;p&gt;As LLMs often hallucinate or become outdated, so RAG helps.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;rag&amp;#x2F;rag2.avif&quot;  alt=&quot;rag pipeline&quot;&gt;
+    
+    &lt;figcaption&gt;RAG Pipeline&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;&lt;em&gt;Fine-tuning vs. RAG&lt;&#x2F;em&gt; comes down to internalization vs. real-time grounding. Fine-tuning updates a model’s weights with task-specific data, useful for static tasks requiring deep reasoning. RAG, on the other hand, retrieves updated content without retraining, offering lower cost and more flexibility. It’s ideal for dynamic, fact-heavy applications, while fine-tuning is better for logic-centric or controlled tasks.&lt;&#x2F;p&gt;
+&lt;p&gt;Technically, RAG works in stages: &lt;em&gt;Indexing&lt;&#x2F;em&gt; involves converting reference documents into &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Word_embedding&quot;&gt;vector embeddings of words&lt;&#x2F;a&gt;, which are stored in a database for fast retrieval. &lt;em&gt;Retrieval&lt;&#x2F;em&gt; follows, where a query triggers the retrieval of the most relevant documents from the database. In &lt;em&gt;Augmentation&lt;&#x2F;em&gt;, these retrieved documents are combined with the user’s query through prompt engineering, enriching the context. Finally, &lt;em&gt;Generation&lt;&#x2F;em&gt; occurs, where the LLM generates a response using both the augmented input and its internal training data, producing a more accurate, context-aware answer.&lt;&#x2F;p&gt;
+&lt;p&gt;RAG is being enhanced with smarter chunking, hybrid retrieval (dense + sparse), and structured knowledge via &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@zilliz_learn&#x2F;graphrag-explained-enhancing-rag-with-knowledge-graphs-3312065f99e1&quot;&gt;GraphRAG&lt;&#x2F;a&gt;, which uses &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Knowledge_graph#:~:text=A%20knowledge%20graph%20formally%20represents,allowing%20queries%20requesting%20explicit%20knowledge.&quot;&gt;knowledge graphs&lt;&#x2F;a&gt; instead of raw text for more precise retrieval. These advances make RAG more &lt;em&gt;interpretable, efficient, and domain-adaptable.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Enough with the theory. Implementation is next.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Understanding Transformers</title>
+		<published>2025-03-31T00:00:00+00:00</published>
+		<updated>2025-03-31T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/transformers/" type="text/html"/>
+		<id>https://anubratbora.me/posts/transformers/</id>
+		<content type="html">&lt;p&gt;Okay.&lt;&#x2F;p&gt;
+&lt;p&gt;So, basically if you are new to this and don&#x27;t have much experience in deep learning or math, worry not. I got you.&lt;&#x2F;p&gt;
+&lt;p&gt;You know how a neural network works? It mostly plays with the weights and biases to make predictions. No? Go find out... &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=aircAruvnKk&amp;amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;amp;ab_channel=3Blue1Brown&quot;&gt;Intro&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;transformers&amp;#x2F;neural-netv2.avif&quot;  alt=&quot;a basic neural network&quot;&gt;
+    
+    &lt;figcaption&gt;A basic neural network&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Let&#x27;s learn more about feedforward networks, and how they work differently from backpropagation...&lt;&#x2F;p&gt;
+&lt;p&gt;Well, backprop is like a good kid, who learns from its mistakes. When a neural net starts by making a prediction and calculating how far off it is using a &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Loss_function#:~:text=In%20mathematical%20optimization%20and%20decision,cost%22%20associated%20with%20the%20event.&quot;&gt;loss function&lt;&#x2F;a&gt;. Then, using &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IHZwWFHWa-w&amp;amp;ab_channel=3Blue1Brown&quot;&gt;gradient descent&lt;&#x2F;a&gt;, it traces the error backward through the network, layer by layer, adjusting the weights based on how much each contributed to the mistake. This process, powered by the chain rule, helps the network improve step by step until it makes accurate predictions. &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Ilg3gGewQ5U&amp;amp;list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;amp;index=3&amp;amp;ab_channel=3Blue1Brown&quot;&gt;Watch this!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;transformers&amp;#x2F;backprop2.avif&quot;  alt=&quot;chain rule&quot;&gt;
+    
+    &lt;figcaption&gt;Chain rule&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Why limit myself to human friends when I have ChatGPT that remembers my interests, never cancels plans, and can debug my code at 3 AM?&lt;&#x2F;p&gt;
+&lt;p&gt;But have you ever thought how it works? These are known as &lt;em&gt;Large Language Models&lt;&#x2F;em&gt; or simply, LLMs.&lt;&#x2F;p&gt;
+&lt;p&gt;Earlier, sequence-based tasks were done using &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Recurrent_neural_network&quot;&gt;RNNs&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Long_short-term_memory&quot;&gt;LSTMs&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Gated_recurrent_unit&quot;&gt;GRUs&lt;&#x2F;a&gt;. But it wasn&#x27;t enough as they had problems. Problems such as &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Vanishing_gradient_problem&quot;&gt;vanishing gradients&lt;&#x2F;a&gt;, slow training, poor handling of long range dependencies or tokens.&lt;&#x2F;p&gt;
+&lt;p&gt;But in 2017, it changed.&lt;&#x2F;p&gt;
+&lt;p&gt;Ever heard about the word &quot;attention&quot;? Yes. It&#x27;s mostly the same thing that your girlfriend wants.&lt;&#x2F;p&gt;
+&lt;p&gt;A group of researchers at Google came up with a paper named &lt;a href=&quot;&#x2F;img&#x2F;transformer-insights&#x2F;aiayn.pdf&quot;&gt;&lt;em&gt;Attention Is All You Need&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, introducing transformers, which then replaced recurrence with &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Attention_(machine_learning)&quot;&gt;self-attention&lt;&#x2F;a&gt;, allowing models to process entire sequences in parallel. This made training much faster, eliminated vanishing gradient issues, and improved handling of long-range dependencies. Unlike RNNs and LSTMs, Transformers scale well with data and compute, enabling breakthroughs in NLP and powering models like &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Generative_pre-trained_transformer&quot;&gt;GPT&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;BERT_(language_model)&quot;&gt;BERT&lt;&#x2F;a&gt;. Their ability to generalize across tasks with minimal fine-tuning further is what dominates modern AI.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;breaking-it-down&quot;&gt;Breaking It Down&lt;a class=&quot;zola-anchor&quot; href=&quot;#breaking-it-down&quot; aria-label=&quot;Anchor link for: breaking-it-down&quot; style=&quot;visibility: hidden;&quot;&gt;&lt;&#x2F;a&gt;
+&lt;&#x2F;h1&gt;
+&lt;p&gt;Self-attention helps a model focus on the most important words in a sentence, no matter where they appear. Instead of reading words one by one like older models, transformers look at the whole sentence at once and decide which words relate most to each other. For example, in the sentence &lt;em&gt;&quot;The cat, which was sitting on the mat, was purring because it was happy&quot;&lt;&#x2F;em&gt;, the word &lt;em&gt;&quot;it&quot;&lt;&#x2F;em&gt; refers to &lt;em&gt;&quot;cat&quot;&lt;&#x2F;em&gt;. Self-attention helps &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Machine_translation&quot;&gt;machine translation&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Natural_language_generation&quot;&gt;natural language generation&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;$$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V $$&lt;&#x2F;p&gt;
+&lt;p&gt;where, $Q$ (Query), $K$ (Key), and $V$ (Value) transform the input to determine word attention. The scaling factor $d_k$ stabilizes gradients, while softmax normalizes attention scores to ensure they sum to 1.&lt;&#x2F;p&gt;
+&lt;p&gt;Transformers are built using layers that process information efficiently. The key parts include self-attention, which helps the model understand relationships between words, and feedforward layers, which refine the output. They also use &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;@hunter-j-phillips&#x2F;positional-encoding-7a93db4109e6&quot;&gt;positional encoding&lt;&#x2F;a&gt; to remember the order of words, since they don’t process text sequentially like RNNs. By stacking multiple layers of these components, transformers can handle complex language tasks, making them much more powerful than older models.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;transformers&amp;#x2F;ta2.avif&quot;  alt=&quot;transformer architecture&quot;&gt;
+    
+    &lt;figcaption&gt;(a) One encoder layer and one decoder layer. (b) Two encoder layers and two decoder layers.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And because GPTs need a job, not just vibes, we fine-tune them, which basically means training it on a specific task with new data. Instead of training a model from scratch, fine-tuning allows a model to quickly adapt to new domains like medical diagnosis, legal analysis, or chatbots, just to save and computational power.&lt;&#x2F;p&gt;
+&lt;p&gt;But are they perfect? No... transformers have some major challenges. They require a lot of computing power, making them expensive to train and run. They also struggle with bias, often reflecting the flaws in the data they were trained on. Additionally, they sometimes generate hallucinations, confident but incorrect answers, making them unreliable in certain situations.&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly, while transformers lead today, the world&#x27;s moving fast, and we get to see new innovations almost every day. For example, &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mixture_of_experts&quot;&gt;Mixture of Experts (MoE)&lt;&#x2F;a&gt; reduces computation by activating only needed parts, while &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Retrieval-augmented_generation&quot;&gt;Retrieval Augmented Generation (RAG)&lt;&#x2F;a&gt; integrates real-world data.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s a discussion for another blog.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bro Split Continues</title>
+		<published>2025-03-25T00:00:00+00:00</published>
+		<updated>2025-03-25T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/bro-split-continues/" type="text/html"/>
+		<id>https://anubratbora.me/posts/bro-split-continues/</id>
+		<content type="html">&lt;p&gt;I have gained, not memories, not grades, but weight. Fat, you say? I say it&#x27;s bulking.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img1.avif&quot;  alt=&quot;happy meal&quot;&gt;
+    
+    &lt;figcaption&gt;How can you NOT bulk when this is around?&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;It&#x27;s been a long time. Well, it&#x27;s more like an update. Basically, college has been the same, and the pressure of getting an internship is really catching up to me. The countless happy posts on LinkedIn aren&#x27;t helping either. And lately, sending out applications on (almost) all job platforms feels like a waste of time.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img2.avif&quot;  alt=&quot;two birds outside my window&quot;&gt;
+    
+    &lt;figcaption&gt;They came to check on how the placement prep was going.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;One constant? Man, I&#x27;ve become obsessed with the gym. More like escapism? I don&#x27;t know.&lt;&#x2F;p&gt;
+&lt;p&gt;Have you ever seen those guys on the internet who tell you to become the ULTIMATE version of yourself? Me neither. But people tell me I&#x27;m trying to be one. I remember when watching movies and shows was fun, when it didn’t leave me with any regret.&lt;&#x2F;p&gt;
+&lt;p&gt;Is it a good thing? &#x27;Cause I ain&#x27;t enjoyin&#x27; it.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;bro-split-continues&amp;#x2F;img5.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Oh, shooting star, FAANG! FAANG!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;You promise yourself to be productive, and the same night, you end up spending hours chilling with your friends on the balcony, talking and self-roasting.&lt;&#x2F;p&gt;
+&lt;p&gt;Nights are always &lt;em&gt;fun&lt;&#x2F;em&gt;. Right, people?&lt;&#x2F;p&gt;
+&lt;p&gt;These are the same friends who try their hardest to convince me to go on a trip with them (&lt;em&gt;sooo forced&lt;&#x2F;em&gt;) and argue that it would be their &lt;em&gt;last&lt;&#x2F;em&gt;. The only issue? You’ll soon see another &quot;&lt;em&gt;last&lt;&#x2F;em&gt;&quot; trip being planned the next weekend, then another after that, and the cycle continues...&lt;&#x2F;p&gt;
+&lt;p&gt;Clock&#x27;s ticking... placements are coming. And night ponderings somehow manage to take the stress away.&lt;&#x2F;p&gt;
+&lt;p&gt;Let’s see where I land.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Really Unplugged</title>
+		<published>2024-09-29T00:00:00+00:00</published>
+		<updated>2024-09-29T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/life-without-the-laptop/" type="text/html"/>
+		<id>https://anubratbora.me/posts/life-without-the-laptop/</id>
+		<content type="html">&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img2.avif&quot;  alt=&quot;a tasty burger&quot;&gt;
+    
+    &lt;figcaption&gt;Life goal: checked!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;A family trip was long overdue. Bags packed! All checked! And so I headed with zeal. Not long after I was stopped at security because of my creatine. I was pissed. But, but... the MESSI BURGER had made up for it.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img4.avif&quot;  alt=&quot;view from jaipur fort&quot;&gt;
+    
+    &lt;figcaption&gt;Jaipur, we meet again.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Your parents treat you so well, at least they do for the first 10 minutes of seeing you after 3 months.&lt;&#x2F;p&gt;
+&lt;p&gt;And man, I gotta agree, Rajasthani food&#x27;s great, even better than the monuments, &lt;em&gt;perhaps&lt;&#x2F;em&gt;?&lt;&#x2F;p&gt;
+&lt;p&gt;After the sightseeing, given my habit of getting bored quickly, we arrived, I ordered food (as always), we ate, and we slept. Next day, we went to the Taj, and &lt;em&gt;surely&lt;&#x2F;em&gt;, I meant the Mahal, come on!
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img5.avif&quot;  alt=&quot;the taj mahal&quot;&gt;
+    
+    &lt;figcaption&gt;(1&amp;#x2F;7 completed)&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The trip itself was really &lt;em&gt;wholesome&lt;&#x2F;em&gt;, maybe because of the fact that the place we stayed in was really cozy. I&#x27;m not crazy to say this, but, the best part I felt about the trip was...&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img7.avif&quot;  alt=&quot;tasty cheesecake&quot;&gt;
+    
+    &lt;figcaption&gt;This. The cheat meal no. #100&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Though, I realized, life could be &lt;em&gt;fun&lt;&#x2F;em&gt; without the laptop as well. And it&#x27;s worth spending time with people, also ordering food online, listening to music online, and booking tickets online as well.&lt;&#x2F;p&gt;
+&lt;p&gt;Nights were amazing... lovely music, great food, could it get any better?&lt;&#x2F;p&gt;
+&lt;p&gt;To end it all, we bought stuff, lots of stuff! (Bought too many souvenirs, just to see my Paytm go red.)&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;life-without-the-laptop&amp;#x2F;img9.avif&quot;  alt=&quot;view of sunset&quot;&gt;
+    
+    &lt;figcaption&gt;Top of the world, LITERALLY!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Time to return to the hostel. T2 Bangalore at night feels like a monument of its own.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe, just maybe, vacations are a good thing until it&#x27;s &lt;em&gt;forced&lt;&#x2F;em&gt;. Can&#x27;t wait for the next one!&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Magical Times</title>
+		<published>2024-01-25T00:00:00+00:00</published>
+		<updated>2024-01-25T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/where-magic-happened/" type="text/html"/>
+		<id>https://anubratbora.me/posts/where-magic-happened/</id>
+		<content type="html">&lt;p&gt;This is about the end of my third semester, which marked the end of weeks of late-night study sessions, stress, and hard work (&lt;em&gt;also, ordering late-night food&lt;&#x2F;em&gt;). I had Object Oriented Programming as my last exam. And man, I hated Java! I felt a  sense of genuine relief and accomplishment after a long time.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img1.avif&quot;  alt=&quot;terminal 2, bangalore&quot;&gt;
+    
+    &lt;figcaption&gt;Is the T2 really beautiful, or am I that sleep-deprived?&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I wanted my holidays to be special, so I decided to surprise my younger brother. And all the food he Swiggy&#x27;d after seeing me told me it was worth it.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img2.avif&quot;  alt=&quot;picture taken from the bus window&quot;&gt;
+    
+    &lt;figcaption&gt;Yay! I got the window seat again.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The next night, dinner at home felt great after so long. I was finally what I should’ve been before, GRATEFUL.&lt;&#x2F;p&gt;
+&lt;p&gt;Gym is a form of escapism, and rightly so, I proved it during the holidays.&lt;&#x2F;p&gt;
+&lt;p&gt;The next day, guests came over. Well (don&#x27;t tell them), but usually, I&#x27;m not very welcoming. This time, tough, I felt &lt;del&gt;good&lt;&#x2F;del&gt; fine. And I believe it was because of this.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;where-magic-happened&amp;#x2F;img3.avif&quot;  alt=&quot;barbeque at our home&quot;&gt;
+    
+    &lt;figcaption&gt;It&amp;#x27;s because of that holy spirit that I&amp;#x27;m sharing my food.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;25th, The Christmas Day! And everything was just so perfect. San(Ta) had brought us sweets and gifts (as always). Interestingly enough, I put lights around our front porch this time. &lt;em&gt;Funnily enough, the neighbors thought we had changed religion.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally, that morning car ride to an &lt;em&gt;unknown planet altogether&lt;&#x2F;em&gt; was something else.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;where-magic-happened&#x2F;img5.avif&quot; alt=&quot;photo from guwahati airport&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Christmas time&#x27;s fun. I enjoy winter. Guess magic really happens... and wishes do come true.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Weekends at Balcony</title>
+		<published>2023-10-11T00:00:00+00:00</published>
+		<updated>2023-10-11T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/weekend-at-balconies/" type="text/html"/>
+		<id>https://anubratbora.me/posts/weekend-at-balconies/</id>
+		<content type="html">&lt;p&gt;As always, I’ve been enjoying the weekends, thanks to the amazing group of friends I have (No puns, none at all). Without you, weekends are just days you get for extra sleep, which is &lt;em&gt;bad&lt;&#x2F;em&gt;? Ah, anyway... the concept of a perfect weekend often varies from person to person, shaped by individual preferences. And for me, this weekend &lt;em&gt;rocked!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img1.avif&quot;  alt=&quot;sky with rainbow&quot;&gt;
+    
+    &lt;figcaption&gt;This is where the magic happens! (And fights too.)&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;It kicked off with me being excited and waking up on my own (trust me when I say this, it doesn’t usually happen by itself), I believe it was because of the Champions League final that we had to play. As always, I was the one who had to gather everyone. With promises to myself that it was the &lt;em&gt;last time&lt;&#x2F;em&gt; I&#x27;d do that, we started playing. After a couple of injuries we wrapped up and headed for mess food, a mediocre breakfast.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img3.avif&quot;  alt=&quot;my fancy desk setup&quot;&gt;
+    
+    &lt;figcaption&gt;My fancy desk setup, thanks to OCD.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;See this? I gave my everything to completing my projects and assignments, and so did chatGPT.&lt;&#x2F;p&gt;
+&lt;p&gt;Post this, I just slept and slept... (why won&#x27;t I? Had you seen me, you would&#x27;ve said the same.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img4.avif&quot;  alt=&quot;evening sky&quot;&gt;
+    
+    &lt;figcaption&gt;I woke up to this view!&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;And Bangalore being unpredictable, showed it&#x27;s true colors in the form of heavy downpours. Seriously this city&#x27;s a mess, but what do I say when my relatives ask me about it? Yes. &quot;&lt;em&gt;The weather&#x27;s awesome!&lt;&#x2F;em&gt;&quot;, &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PVrtI6YOe6Y&amp;amp;ab_channel=RandomChikibum&quot;&gt;Rahul Subramanian&lt;&#x2F;a&gt;, I feel you.&lt;&#x2F;p&gt;
+&lt;p&gt;As the rain stopped, it was time for IND vs AUS. And truly, the thrill of the game, the highs and lows, and the annoying desire of my friends to see the 11th man finish the game for India was, in a way, INTERESTING. It was an exhilarating experience honestly as the screen was really great and bright, maybe too bright too, it was as if I were in the stadium.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img6.avif&quot;  alt=&quot;ind vs aus screening&quot;&gt;
+    
+    &lt;figcaption&gt;My pay off? The screen destroyed my retinas.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;&lt;figure&gt;
+    &lt;img src=&quot;&amp;#x2F;img&amp;#x2F;weekend-at-balconies&amp;#x2F;img10.avif&quot;  alt=&quot;walking track&quot;&gt;
+    
+    &lt;figcaption&gt;That&amp;#x27;s where we walked just to see lookalikes.&lt;&#x2F;figcaption&gt;
+    
+&lt;&#x2F;figure&gt;
+&lt;p&gt;All good, India won, we walked on tracks making fun of one another. Bullying. But the best part? It was after I came back to my block, and sat on the balcony, with some friends and we shared thoughts (too dark and complex) to reveal, some even against the law. Accompanied by a playlist of old Soft Rock, we enjoyed the night, and the weekend. No happy ending as Monday followed.&lt;&#x2F;p&gt;
+&lt;p&gt;See you soon.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Pilot</title>
+		<published>2023-08-27T00:00:00+00:00</published>
+		<updated>2023-08-27T00:00:00+00:00</updated>
+		<link href="https://anubratbora.me/posts/chapter-one/" type="text/html"/>
+		<id>https://anubratbora.me/posts/chapter-one/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;chapter-one&#x2F;img1.avif&quot; alt=&quot;the night sky&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Welcome again!&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve always wanted to start my own blog, and thanks to the support of some of my favorite people, I finally have. This site isn’t just about posts, it&#x27;s about the (&lt;em&gt;occasional&lt;&#x2F;em&gt;) randomness of my life.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s mostly satirical, much like my existence. Through it, I’ll share the boring &lt;em&gt;little things&lt;&#x2F;em&gt; in my life and learning. I’m incredibly grateful to each of you reading this. Some things may not be perfect since I’m still figuring things out, so &lt;em&gt;bear with me&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Cheers,&lt;&#x2F;p&gt;
+&lt;p&gt;Anubrat.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

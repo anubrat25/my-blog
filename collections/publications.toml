@@ -1,0 +1,8 @@
+
+[[collection]]
+type = "card"
+title = "SSCKC: Semantics-Driven Crime Data Classification Framework"
+subtitle = "Anubrat Bora and Dr. Gerard Deepak"
+link = "https://ceur-ws.org/Vol-3940/AISD-2024_Paper_7.pdf"
+content = "This research presents a strategic framework for classifying criminology and news datasets, enhancing their relevance for expert systems. It integrates LLaMA with XGBoost for efficient categorization and enrichment. Using standard news APIs and the Cricket Algorithm with a diversity index, it optimizes precision, accuracy, and F1 score in crime classification."
+
